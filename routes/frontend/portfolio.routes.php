@@ -1,11 +1,16 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\PortfolioController;
 
 Route::prefix('portfolio')->group(function () {
-    // Show all portfolio categories
-    Route::get('/', [PortfolioController::class, 'index'])->name('portfolio');
+
+    // Show all portfolios
+    Route::get('/', [PortfolioController::class, 'index'])
+        ->name('portfolio');
 
     // Show single portfolio item
-    Route::get('/{id}', [PortfolioController::class, 'single'])->name('portfolio.single');
+    Route::get('/{id}', [PortfolioController::class, 'single'])
+        ->name('portfolio.single');
+
 });
