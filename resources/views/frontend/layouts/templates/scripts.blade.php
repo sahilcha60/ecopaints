@@ -1,0 +1,14 @@
+<script src="{{asset('js/jquery.html')}}"></script>
+<script src="{{asset('js/waypoints.html')}}"></script>
+<script src="{{asset('js/bootstrap.bundle.min.html')}}"></script>
+<script src="{{asset('js/slick.html')}}"></script>
+<script src="{{asset('js/magnific-popup.html')}}"></script>
+<script src="{{asset('js/purecounter.html')}}"></script>
+<script src="{{asset('js/wow.html')}}"></script>
+<script src="{{asset('js/nice-select.html')}}"></script>
+<script src="{{asset('js/swiper-bundle.html')}}"></script>
+<script src="{{asset('js/isotope-pkgd.html')}}"></script>
+<script src="{{asset('js/range-slider.html')}}"></script>
+<script src="{{asset('js/imagesloaded-pkgd.html')}}"></script>
+<script src="{{asset('js/ajax-form.html')}}"></script>
+<script src="{{asset('js/main.html')}}"></script>
