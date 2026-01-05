@@ -2,1406 +2,873 @@
 
 @section('content')
 
-<main>
+<!--===== HERO AREA STARTS =======-->
+<div class="vl-hero-area">
+    <div class="hero1-bg">
+        <div class="swiper myhero1">
+            <div class="swiper-wrapper">
 
-    <!-- banner area start  -->
-    <section class="cp-banner2-area p-relative fix">
-        <div class="cp-banner2-shape-area">
-        <div class="cp-banner2-shape2 p-absolute cp-rotation"></div>
-        <div class="cp-banner2-shape3 p-absolute cp-rotation"></div>
-        <div class="cp-banner2-shape4 p-absolute zi-5 cp-bg-move-y d-none d-md-block">
-            <img src="{{asset('img/banner/banner-shape1.png')}}" alt="banner-shape1">
-        </div>
-        <div class="cp-banner2-shape5 p-absolute zi-5 cp-bg-move-x">
-            <img src="{{asset('img/banner/banner-shape2.png')}}" alt="banner-shape1">
-        </div>
-        </div>
-        <div class="swiper-container cp-banner2-active">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="single-banner d-flex align-items-center cp-bg-13 pt-110 pb-80">
-                    <div class="container pos-rel">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="cp-banner2-content pr-60 mb-70">
-                                <h2 class="cp-banner2-title mb-40" data-animation="fadeInUp" data-delay=".3s">Modern &
-                                Digital Printing Solution.</h2>
-                                <p class="cp-banner2-text mb-50" data-animation="fadeInUp" data-delay="0.4s">Our custom
-                                pet portraits are a unique gift for any pet lover, beautiful way to <br> remember a
-                                dearly missed furry friend.</p>
-                                <div class="cp-banner2-btn" data-animation="fadeInUp" data-delay="0.5s">
-                                <a href="shop.html" class="cp-btn">
-                                    Order Online Now
-                                    <span class="cp-btn__inner">
-                                        <span class="cp-btn__blobs">
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                        </span>
-                                    </span>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cp-banner2-img-wrap p-relative d-flex justify-content-xl-end mb-70"
-                                data-animation="fadeInUp" data-delay="0.5s">
-                                <div class="cp-banner2-img-inner p-relative">
-                                <div class="cp-banner2-video">
-                                    <video autoplay>
-                                        <source src="https://www.dropbox.com/s/jgeo7aa43ellilc/video.mp4?raw=1"
-                                            type="video/mp4">
-                                    </video>
-                                </div>
-                                <div class="cp-banner2-img2 p-absolute w-img br-img-50 d-none d-sm-block">
-                                    <img src="img/banner/banner-3.jpg" alt="banner">
-                                </div>
-                                <div class="cp-banner2-img3 p-absolute w-img br-img-50 d-none d-sm-block">
-                                    <img src="img/banner/banner-4.jpg" alt="banner">
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="single-banner d-flex align-items-center cp-bg-13 pt-110 pb-80">
-                    <div class="container pos-rel">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="cp-banner2-content pr-60 mb-70">
-                                <h2 class="cp-banner2-title mb-40" data-animation="fadeInUp" data-delay=".3s">Quality &
-                                Lasting Printing Solution.</h2>
-                                <p class="cp-banner2-text mb-50" data-animation="fadeInUp" data-delay="0.4s">Our custom
-                                pet portraits are a unique gift for any pet lover, beautiful way to <br> remember a
-                                dearly missed furry friend.</p>
-                                <div class="cp-banner2-btn" data-animation="fadeInUp" data-delay="0.5s">
-                                <a href="shop.html" class="cp-btn">
-                                    Order Online Now
-                                    <span class="cp-btn__inner">
-                                        <span class="cp-btn__blobs">
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                            <span class="cp-btn__blob"></span>
-                                        </span>
-                                    </span>
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cp-banner2-img-wrap p-relative d-flex justify-content-xl-end mb-70"
-                                data-animation="fadeInUp" data-delay="0.5s">
-                                <div class="cp-banner2-img-inner p-relative">
-                                <div class="cp-banner2-video">
-                                    <video src="img/video/video.html" loop="" muted="" autoplay=""
-                                        playsinline=""></video>
-                                </div>
-                                <div class="cp-banner2-img2 p-absolute w-img br-img-50 d-none d-sm-block">
-                                    <img src="img/banner/banner-3.jpg" alt="banner">
-                                </div>
-                                <div class="cp-banner2-img3 p-absolute w-img br-img-50 d-none d-sm-block">
-                                    <img src="img/banner/banner-4.jpg" alt="banner">
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- If we need navigation buttons -->
-        <div class="cp-banner2-nav">
-            <div class="cp-banner2-button cp-banner2-button-prev cp p-absolute">
-                <i class="far fa-angle-left"></i>
-            </div>
-            <div class="cp-banner2-button cp-banner2-button-next cp p-absolute">
-                <i class="far fa-angle-right"></i>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- banner area end  -->
+                <!-- Hero Slide -->
+                <div class="swiper-slide">
+                    <div class="hero1-bg-slide">
+                        <img 
+                            src="{{ asset('img/hero/hero-hm1-bg(1).png') }}" 
+                            alt="Hero Background" 
+                            class="hero-hm1-bg"
+                        >
 
-    <!-- about 2 area start  -->
-    <section class="cp-about2-area pt-150 pb-85">
-        <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-10">
-                <div class="cp-about2-img-wrap pr-15 p-relative mb-60 wow fadeInLeft animated"
-                    data-wow-duration="1.5s" data-wow-delay="0.3s">
-                    <div class="cp-about2-img-main w-img p-relative">
-                    <div class="cp-img-overlay wow"></div>
-                    <div class="cp-img-blur">
-                        <img src="img/about/about3.jpg" alt="about3">
-                        <img src="img/about/about3.jpg" alt="about3">
-
-                    </div>
-                    <div class="cp-about2-video p-absolute">
-                        <a class="popup-video play-btn" href="https://www.youtube.com/watch?v=ngmFMTeIl5A"><i
-                                class="fas fa-play"></i></a>
-                    </div>
-                    </div>
-                    <div class="cp-about2-img-sub zi-100 w-img p-absolute d-none d-sm-block">
-                    <img src="img/about/about4.jpg" alt="about4">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-10">
-                <div class="cp-about2-content mb-60">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15 wow fadeInUp animated" data-wow-duration="1.5s"
-                        data-wow-delay="0.3s">about us</span>
-                    <h2 class="cp-title mb-25 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.4s">
-                        What is print on <span>demand and how</span>that works?
-                    </h2>
-                    </div>
-                    <p class="cp-about2-text mb-30 wow fadeInUp animated" data-wow-duration="1.5s"
-                    data-wow-delay="0.5s">We make it our mission to provide our customers with a web presence
-                    that is creative, exciting and right for their business. No matter where your business is at, a
-                    strong web presence will help it grow.</p>
-                    <div class="cp-list mb-55 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                    <ul>
-                        <li>Top quality prints using the latest technology</li>
-                        <li>Shipping worldwide</li>
-                        <li>Printed locally, worn globally.</li>
-                    </ul>
-                    </div>
-                    <div class="cp-about2-btn wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.7s">
-                    <a href="contact.html" class="cp-border-btn">
-                        know more
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- about 2 area end  -->
-
-    <!-- service 2 area start  -->
-    <section class="cp-services2-area pb-150">
-        <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-8">
-                <div class="cp-services2-title-wrap t-center mb-65">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15 wow fadeInUp animated" data-wow-duration="1.5s"
-                        data-wow-delay="0.3s">Our Services</span>
-                    <h2 class="cp-title mb-25 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        We <span>print all your</span> dreams!</h2>
-                    <p class="wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.5s">You can spread
-                        them around with icons. Title and 2 lines of description <br> would be nice
-                    </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cp-services2-item-wrap mb-30">
-            <div class="row">
-                <div class="col-xxl-3 col-md-6 col-sm-12">
-                    <div class="cp-service2-item p-relative img-hover-left-right-item mb-40 wow fadeInUp animated"
-                    data-wow-duration="1.5s" data-wow-delay="0.4s">
-                    <div class="cp-service2-img p-absolute img-hover-left-right"
-                        data-background="img/service/services-8.jpg"></div>
-                    <div class="cp-service2-icon m-img mb-20">
-                        <img src="img/service/service-icon1.png" alt="service-icon">
-                    </div>
-                    <div class="cp-service2-content p-relative zi-5">
-                        <h4 class="cp-service2-title mb-15"><a href="service-details.html">Greeting Cards</a></h4>
-                        <p class="cp-service2-text">Open Canva. Open Canva and search for "Greeting Card"..</p>
-                        <a class="cp-service2-btn" href="service-details.html">More Details <i
-                                class="fas fa-long-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-md-6 col-sm-12">
-                    <div class="cp-service2-item p-relative img-hover-left-right-item mb-40 wow fadeInUp animated"
-                    data-wow-duration="1.5s" data-wow-delay="0.5s">
-                    <div class="cp-service2-img p-absolute img-hover-left-right"
-                        data-background="img/service/services-8.jpg"></div>
-                    <div class="cp-service2-icon m-img mb-20">
-                        <img src="img/service/service-icon2.png" alt="service-icon">
-                    </div>
-                    <div class="cp-service2-content p-relative zi-5">
-                        <h4 class="cp-service2-title mb-15"><a href="service-details.html">T-shirt Printing</a></h4>
-                        <p class="cp-service2-text">Open Canva. Open Canva and search for "Greeting Card"..</p>
-                        <a class="cp-service2-btn" href="service-details.html">More Details <i
-                                class="fas fa-long-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-md-6 col-sm-12">
-                    <div class="cp-service2-item p-relative img-hover-left-right-item mb-40 wow fadeInUp animated"
-                    data-wow-duration="1.5s" data-wow-delay="0.6s">
-                    <div class="cp-service2-img p-absolute img-hover-left-right"
-                        data-background="img/service/services-8.jpg"></div>
-                    <div class="cp-service2-icon m-img mb-20">
-                        <img src="img/service/service-icon3.png" alt="service-icon">
-                    </div>
-                    <div class="cp-service2-content p-relative zi-5">
-                        <h4 class="cp-service2-title mb-15"><a href="service-details.html">Stickers and Labels</a>
-                        </h4>
-                        <p class="cp-service2-text">Open Canva. Open Canva and search for "Greeting Card"..</p>
-                        <a class="cp-service2-btn" href="service-details.html">More Details <i
-                                class="fas fa-long-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-md-6 col-sm-12">
-                    <div class="cp-service2-item p-relative img-hover-left-right-item mb-40 wow fadeInUp animated"
-                    data-wow-duration="1.5s" data-wow-delay="0.7s">
-                    <div class="cp-service2-img p-absolute img-hover-left-right"
-                        data-background="img/service/services-8.jpg"></div>
-                    <div class="cp-service2-icon m-img mb-20">
-                        <img src="img/service/service-icon4.png" alt="service-icon">
-                    </div>
-                    <div class="cp-service2-content p-relative zi-5">
-                        <h4 class="cp-service2-title mb-15"><a href="service-details.html">Promotional Printing</a>
-                        </h4>
-                        <p class="cp-service2-text">Open Canva. Open Canva and search for "Greeting Card"..</p>
-                        <a class="cp-service2-btn" href="service-details.html">More Details <i
-                                class="fas fa-long-arrow-right"></i></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-xl-6">
-                <div class="cp-services-view-btn t-center wow fadeInUp animated" data-wow-duration="1.5s"
-                    data-wow-delay="0.8s">
-                    <a href="services.html" class="cp-border-btn">View All Services
-                    <span class="cp-border-btn__inner">
-                        <span class="cp-border-btn__blobs">
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                        </span>
-                    </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- service 2 area end  -->
-
-    <!-- Why Choose Us area start  -->
-    <section class="cp-choose-area cp-bg-14 pt-150 pb-90">
-        <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-10">
-                <div class="cp-choose-content mb-60 wow fadeInUp animated" data-wow-duration="1.5s"
-                    data-wow-delay="0.3s">
-                    <div class="cp-choose-title-wrap">
-                    <div class="cp-section-title">
-                        <span class="cp-subtitle mb-15">Why Choose Us?</span>
-                        <h2 class="cp-title mb-30">Best shipping rates for <span>print on-demand</span>.</h2>
-                    </div>
-                    </div>
-                    <p class="cp-choose-text mb-35">Fast print, flyer, and pamphlet printing organization. Pleased with
-                    our past. <br>Printing for what’s to come.</p>
-                    <div class="cp-list mb-45">
-                    <ul>
-                        <li>In House Production</li>
-                        <li>Better Print Quality with All Product</li>
-                        <li>Stock Designs and Excellent Client Support</li>
-                        <li>Printed locally, worn globally.</li>
-                    </ul>
-                    </div>
-                    <div class="cp-choose-btn">
-                    <a class="cp-border-btn" href="contact.html">Start A Project
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-10">
-                <div class="cp-choose-img-wrap mb-35">
-                    <div class="row">
-                    <div class="col-sm-6">
-                        <div class="wow fadeInRight animated" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <div class="cp-choose-img-item p-relative w-img mb-25">
-                                <div class="cp-img-overlay wow"></div>
-                                <img src="img/choose/choose-1.jpg" alt="choose">
-                            </div>
-                        </div>
-                        <div class="cp-choose-img-item mb-25 wow fadeInUp animated" data-wow-duration="1.5s"
-                            data-wow-delay="0.4s">
-                            <div class="cp-choose-experience">
-                                <div class="cp-choose-experience-icon p-relative m-img">
-                                <img src="img/choose/choose-experience-icon.png" alt="experience">
-                                </div>
-                                <div class="cp-choose-experience-text">
-                                <h3><span class="counter d-inline-block">12</span>+ Years</h3>
-                                <span>Experience All Team</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="cp-choose-img-right-wrap mt-65">
-                            <div class="wow fadeInRight animated" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                                <div class="cp-choose-img-item p-relative w-img mb-25">
-                                <div class="cp-img-overlay wow"></div>
-                                <img src="img/choose/choose-2.jpg" alt="choose">
-                                </div>
-                            </div>
-                            <div class="wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                                <div class="cp-choose-img-item p-relative w-img mb-25 ">
-                                <div class="cp-img-overlay wow"></div>
-                                <img src="img/choose/choose-3.jpg" alt="choose">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- Why Choose Us area end  -->
-
-    <!-- product area start  -->
-    <div class="product-area pt-140">
-        <div class="container border-bottom pb-65">
-        <div class="row justify-content-center">
-            <div class="col-xl-7 col-lg-8">
-                <div class="cp-services2-title-wrap t-center mb-35">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15 wow fadeInUp animated" data-wow-duration="1.5s"
-                        data-wow-delay="0.3s">Our Classic Products</span>
-                    <h2 class="cp-title mb-25 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        Premium <span>products you</span> can <br> customize and sell.</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center wow fadeInUp animated" data-wow-duration="1.5s"
-            data-wow-delay="0.5s">
-            <div class="col-xl-10">
-                <div class="cp-product-menu mb-60 t-center">
-                    <button class="active" data-filter="*">All</button>
-                    <button data-filter=".c1">T-Shirt</button>
-                    <button data-filter=".c2">Men T-Shirt</button>
-                    <button data-filter=".c3">Women T-Shirt</button>
-                </div>
-            </div>
-        </div>
-        <div class="cp-product-wrap mb-20 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.5s">
-            <div class="row grid">
-                <div class="col-xl-3 col-lg-4 col-sm-6 c1 c2 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-01.png" alt="product">
-                            <img class="pic-2" src="img/product/product-11.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">T-shirts & tank tops</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-old">139.00$</span>
-                            <span class="price-now">100.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c2 c3 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <span class="product-badge product-badge-new">new</span>
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-06.png" alt="product">
-                            <img class="pic-2" src="img/product/product-11.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">White Woman T-Shirt.</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-now">120.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c2 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-10.png" alt="product">
-                            <img class="pic-2" src="img/product/product-09.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">Graphic T-Shirt Trendy</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-now">12.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c1 c2 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <span class="product-badge product-badge-sale">sale</span>
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-07.png" alt="product">
-                            <img class="pic-2" src="img/product/product-09.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">Dark Green T-Shirt</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-now">100.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c2 c3 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <span class="product-badge product-badge-best">best sale</span>
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-08.png" alt="product">
-                            <img class="pic-2" src="img/product/product-11.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">White T-Shirt</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-old">120.00$</span>
-                            <span class="price-now">100.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c1 c3 c2 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-04.png" alt="product">
-                            <img class="pic-2" src="img/product/product-02.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">Business Card</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-old">90.00$</span>
-                            <span class="price-now">70.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c2 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <span class="product-badge product-badge-off">10% off</span>
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-07.png" alt="product">
-                            <img class="pic-2" src="img/product/product-10.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">Men T-shirts</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-old">90.00$</span>
-                            <span class="price-now">70.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 c1 c2 c3 c4 grid-item">
-                    <div class="product-single">
-                    <div class="product-thumb">
-                        <span class="product-badge product-badge-off">10% off</span>
-                        <a href="shop-details.html" class="image">
-                            <img class="pic-1" src="img/product/product-12.png" alt="product">
-                            <img class="pic-2" src="img/product/product-06.png" alt="product">
-                        </a>
-                        <ul class="product-links">
-                            <li><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
-                            <li><a href="img/product/product-shop-1.html" data-bs-toggle="modal"
-                                data-bs-target="#productModalId"><i class="fal fa-eye"></i></a></li>
-                            <li><a href="wishlist.html"><i class="fal fa-heart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="product-description">
-                        <h4 class="product-name">
-                            <a href="shop-details.html">Black T-shirts</a>
-                        </h4>
-                        <div class="product-price">
-                            <span class="price-old">100.00$</span>
-                            <span class="price-now">90.00$</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center wow fadeInUp animated" data-wow-duration="1.5s"
-            data-wow-delay="0.6s">
-            <div class="col-xl-6">
-                <div class="cp-product-view t-center mb-10">
-                    <a href="shop.html" class="cp-border-btn">
-                    View More Product
-                    <span class="cp-border-btn__inner">
-                        <span class="cp-border-btn__blobs">
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                            <span class="cp-border-btn__blob"></span>
-                        </span>
-                    </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- product area end  -->
-
-    <!-- shop modal start -->
-    <div class="modal fade" id="productModalId" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered product__modal" role="document">
-        <div class="modal-content">
-            <div class="product__modal-wrapper p-relative">
-                <div class="product__modal-close p-absolute">
-                    <button data-bs-dismiss="modal">
-                    <i class="fal fa-times"></i>
-                    </button>
-                </div>
-                <div class="product__modal-inner">
-                    <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="product__modal-box">
-                            <div class="tab-content" id="modalTabContent">
-                                <div class="tab-pane fade show active" id="nav1" role="tabpanel"
-                                aria-labelledby="nav1-tab">
-                                <div class="product__modal-img w-img">
-                                    <img src="img/product/product-06.png" alt="img not found">
-                                </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
-                                <div class="product__modal-img w-img">
-                                    <img src="img/product/product-07.png" alt="img not found">
-                                </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
-                                <div class="product__modal-img w-img">
-                                    <img src="img/product/product-10.png" alt="img not found">
-                                </div>
-                                </div>
-                                <div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab">
-                                <div class="product__modal-img w-img">
-                                    <img src="img/product/product-12.png" alt="img not found">
-                                </div>
-                                </div>
-                            </div>
-                            <ul class="nav nav-tabs" id="modalTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="nav1-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav1" type="button" role="tab" aria-controls="nav1"
-                                    aria-selected="true">
-                                    <img src="img/product/product-06.png" alt="img not found">
-                                </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="nav2-tab" data-bs-toggle="tab" data-bs-target="#nav2"
-                                    type="button" role="tab" aria-controls="nav2" aria-selected="false">
-                                    <img src="img/product/product-07.png" alt="img not found">
-                                </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="nav3-tab" data-bs-toggle="tab" data-bs-target="#nav3"
-                                    type="button" role="tab" aria-controls="nav3" aria-selected="false">
-                                    <img src="img/product/product-10.png" alt="img not found">
-                                </button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="nav4-tab" data-bs-toggle="tab" data-bs-target="#nav4"
-                                    type="button" role="tab" aria-controls="nav4" aria-selected="false">
-                                    <img src="img/product/product-12.png" alt="img not found">
-                                </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="product__modal-content">
-                            <h4>
-                                <a href="shop-details.html">maranta lemon lime</a>
-                            </h4>
-                            <div class="product__modal-des mb-40">
-                                <p>
-                                Typi non habent claritatem insitam, est usus legentis
-                                in iis qui facit eorum claritatem. Investigationes
-                                demonstraverunt
-                                </p>
-                            </div>
-                            <div class="product__stock">
-                                <span>Availability :</span>
-                                <span>In Stock</span>
-                            </div>
-                            <div class="product__stock sku mb-30">
-                                <span>SKU :</span>
-                                <span>Juicera C49J89: £875, Debenhams Plus</span>
-                            </div>
-                            <div class="product__review d-sm-flex">
-                                <div class="rating rating__shop mb-15">
-                                <ul>
-                                    <li>
-                                        <a href="#"><i class="fal fa-star"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fal fa-star"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fal fa-star"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fal fa-star"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fal fa-star"></i></a>
-                                    </li>
-                                </ul>
-                                </div>
-                                <div class="product__add-review mb-15">
-                                <span><a href="shop-details.html">1 Review</a></span>
-                                <span><a href="shop-details.html">Add Review</a></span>
-                                </div>
-                            </div>
-                            <div class="product__price">
-                                <span>$59.00</span>
-                            </div>
-                            <div class="product__modal-form">
-                                <div class="product-quantity-cart mb-30">
-                                <div class="product-quantity-form">
-                                    <form action="#">
-                                        <button class="cart-minus">
-                                            <i class="far fa-minus"></i>
-                                        </button>
-                                        <input class="cart-input" type="text" value="1">
-                                        <button class="cart-plus">
-                                            <i class="far fa-plus"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                                <a href="cart.html" class="cp-border-btn">Add to Cart
-                                    <span class="cp-border-btn__inner">
-                                        <span class="cp-border-btn__blobs">
-                                            <span class="cp-border-btn__blob"></span>
-                                            <span class="cp-border-btn__blob"></span>
-                                            <span class="cp-border-btn__blob"></span>
-                                            <span class="cp-border-btn__blob"></span>
-                                        </span>
-                                    </span>
-                                </a>
-                                </div>
-                            </div>
-                            <div class="product__modal-links">
-                                <ul>
-                                <li>
-                                    <a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Compare"><i class="far fa-sliders-h"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Print"><i class="fal fa-print"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Share"><i class="fal fa-share-alt"></i></a>
-                                </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- shop modal end -->
-
-    <!-- testimonial 2 area start here  -->
-    <section class="cp-testimonial2-area pt-75 pb-90">
-        <div class="container">
-        <div class="row">
-            <div class="col-xl-5 col-lg-6 col-md-9">
-                <div class="cp-testimonial2-title-wrap mb-60 wow fadeInUp animated" data-wow-duration="1.5s"
-                    data-wow-delay="0.3s">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15">Testimonial</span>
-                    <h2 class="cp-title mb-25">What our <span>customers</span> are saying</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-7">
-                <div class="cp-testimonial2-item-wrap mb-60 wow fadeInUp animated" data-wow-duration="1.5s"
-                    data-wow-delay="0.6s">
-                    <div class="swiper-container cp-testimonial2-active">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="cp-testimonial2-item">
-                                <div class="cp-testimonial2-text p-relative">
-                                <div class="cp-testimonial2-icon cp-testimonial2-icon1 p-absolute">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <div class="cp-testimonial2-icon cp-testimonial2-icon2 p-absolute">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <p>I work on many projects, he always exceeds my expectations with his quality
-                                    work
-                                    and fast service. Keep up the great work.</p>
-                                </div>
-                                <div class="cp-testimonial2-author">
-                                <div class="cp-testimonial2-author-img">
-                                    <img src="img/testimonial/testimonial-author-1.jpg" alt="testimonial">
-                                </div>
-                                <div class="cp-testimonial2-author-text">
-                                    <h3>Marvin McKinney</h3>
-                                    <span>Founder & CEO</span>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cp-testimonial2-item">
-                                <div class="cp-testimonial2-text p-relative">
-                                <div class="cp-testimonial2-icon cp-testimonial2-icon1 p-absolute">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <div class="cp-testimonial2-icon cp-testimonial2-icon2 p-absolute">
-                                    <i class="fas fa-quote-right"></i>
-                                </div>
-                                <p>Saddle Stitch printing may be used for a variety of purposes, such as
-                                    self-publishing your own architecture, research,
-                                    home, auction.</p>
-                                </div>
-                                <div class="cp-testimonial2-author ml-40">
-                                <div class="cp-testimonial2-author-img">
-                                    <img src="img/testimonial/testimonial-author-2.jpg" alt="testimonial">
-                                </div>
-                                <div class="cp-testimonial2-author-text">
-                                    <h3>Jumble D. Dowson</h3>
-                                    <span>Founder</span>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="d-none d-sm-block">
-                    <div
-                        class="cp-testimonial2-nav cp-slider-round-button-wrap d-flex justify-content-end cp-test-space zi-5 p-relative">
-                        <div class="cp-slider-round-button cp-testimonial2-button-prev"><i
-                                class="fas fa-chevron-left"></i></div>
-                        <div class="cp-slider-round-button cp-testimonial2-button-next"><i
-                                class="fas fa-chevron-right"></i></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- testimonial 2 area end here  -->
-
-    <!-- plan area start here  -->
-    <section class="cp-plan-area cp-bg-15 pt-145 pb-110">
-        <div class="container">
-        <div class="row justify-content-center wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.3">
-            <div class="col-xl-8">
-                <div class="cp-plan-title-wrap t-center mb-65">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15">Pricing Plan</span>
-                    <h2 class="cp-title mb-25">Simple <span>pricing for</span> everyone.</h2>
-                    <p>You can spread them around with icons. Title and 2 lines of description <br> would be nice
-                    </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row alin align-items-center wow fadeInUp animated" data-wow-duration="1.5s"
-            data-wow-delay="0.6">
-            <div class="col-xl-4 col-md-6">
-                <div class="cp-plan2-item white-bg mb-40">
-                    <div class="cp-plan-item-img" data-background="img/plan/plan.png">
-                    </div>
-                    <div class="cp-plan2-header">
-                    <div class="cp-plan2-icon">
-                        <i class="far fa-heart"></i>
-                    </div>
-                    <div class="cp-plan2-duration">
-                        <h3 class="cp-plan2-title">STARTUP</h3>
-                        <span class="cp-plan2-duration-text">1 month</span>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-body">
-                    <div class="cp-plan2-list">
-                        <ul>
-                            <li>5 stores per account</li>
-                            <li>Unlimited product designs</li>
-                            <li>Postcards Design</li>
-                            <li>Banner Card Design</li>
-                            <li>24/7 merchant support</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-footer">
-                    <div class="cp-plan2-price"> <sup class="cp-plan2-currency">$</sup>3<sub
-                            class="cp-plan2-subtraction">.99</sub>
-                    </div>
-                    </div>
-                    <div class="cp-plan-btn">
-                    <a href="https://codeskdhaka.com/wp/chapa/contact-us/" class="cp-border-btn">Get Started Now
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="cp-plan2-item active white-bg mb-40">
-                    <div class="cp-plan-item-img" data-background="img/plan/plan.png">
-                    </div>
-                    <div class="cp-plan2-header">
-                    <div class="cp-plan2-icon">
-                        <i class="far fa-crown"></i>
-                    </div>
-                    <div class="cp-plan2-duration">
-                        <h3 class="cp-plan2-title">BUSINESS PLAN</h3>
-                        <span class="cp-plan2-duration-text">3 month</span>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-body">
-                    <div class="cp-plan2-list">
-                        <ul>
-                            <li>15 stores per account</li>
-                            <li>Digital Printed Apparel</li>
-                            <li>Stationary Design</li>
-                            <li>Yard Signs Design</li>
-                            <li>24/7 merchant support</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-footer">
-                    <div class="cp-plan2-price"> <sup class="cp-plan2-currency">$</sup>19<sub
-                            class="cp-plan2-subtraction">.99</sub></div>
-                    </div>
-                    <div class="cp-plan-btn">
-                    <a href="https://codeskdhaka.com/wp/chapa/contact-us/" class="cp-border-btn">Get Started Now
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="cp-plan2-item white-bg mb-40">
-                    <div class="cp-plan-item-img" data-background="img/plan/plan.png">
-                    </div>
-                    <div class="cp-plan2-header">
-                    <div class="cp-plan2-icon">
-                        <i class="far fa-gem"></i>
-                    </div>
-                    <div class="cp-plan2-duration">
-                        <h3 class="cp-plan2-title">ENTERPRISE PLAN</h3>
-                        <span class="cp-plan2-duration-text">6 month</span>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-body">
-                    <div class="cp-plan2-list">
-                        <ul>
-                            <li>35 stores per account</li>
-                            <li>Promotional Products</li>
-                            <li>Brochures Design</li>
-                            <li>Yard Signs Design</li>
-                            <li>24/7 merchant support</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <div class="cp-plan2-footer">
-                    <div class="cp-plan2-price"> <sup class="cp-plan2-currency">$</sup>49<sub
-                            class="cp-plan2-subtraction">.99</sub></div>
-                    </div>
-                    <div class="cp-plan-btn">
-                    <a href="https://codeskdhaka.com/wp/chapa/contact-us/" class="cp-border-btn">Get Started Now
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- plan area end here  -->
-
-    <!-- team area start here  -->
-    <section class="cp-team2-area cp-team2-mob-space pt-140 pb-135">
-        <div class="cp-team2-title-wrap mb-35 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.3">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-md-8">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15">Our Team</span>
-                    <h2 class="cp-title mb-25">Meet <span>our team</span></h2>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="cp-team2-btn text-lg-end mb-35">
-                    <a class="cp-border2-btn" href="team.html">view all</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.5">
-        <div class="cp-team2-border">
-            <div class="cp-team2-wrap">
-                <div class="cp-team2-item p-relative">
-                    <div class="cp-team2-img w-img">
-                    <a href="team-details.html"><img src="img/team/team-1.jpg" alt="team"></a>
-                    </div>
-                    <div class="cp-team2-content p-absolute">
-                    <h3 class="cp-team2-name"><a href="team-details.html">Alexander</a></h3>
-                    <span class="cp-team2-position">Mockup Designer</span>
-                    </div>
-                </div>
-                <div class="cp-team2-item p-relative active">
-                    <div class="cp-team2-img w-img">
-                    <a href="team-details.html"><img src="img/team/team-2.jpg" alt="team"></a>
-                    </div>
-                    <div class="cp-team2-content p-absolute">
-                    <h3 class="cp-team2-name"><a href="team-details.html">Williamson</a></h3>
-                    <span class="cp-team2-position">Designer</span>
-                    </div>
-                </div>
-                <div class="cp-team2-item p-relative">
-                    <div class="cp-team2-img w-img">
-                    <a href="team-details.html"><img src="img/team/team-3.jpg" alt="team"></a>
-                    </div>
-                    <div class="cp-team2-content p-absolute">
-                    <h3 class="cp-team2-name"><a href="team-details.html">Mr Jon</a></h3>
-                    <span class="cp-team2-position">Graphic Designer</span>
-                    </div>
-                </div>
-                <div class="cp-team2-item p-relative">
-                    <div class="cp-team2-img w-img">
-                    <a href="team-details.html"><img src="img/team/team-4.jpg" alt="team"></a>
-                    </div>
-                    <div class="cp-team2-content p-absolute">
-                    <h3 class="cp-team2-name"><a href="team-details.html">Mr Alesa</a></h3>
-                    <span class="cp-team2-position">Front Designer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- team area end here  -->
-
-    <!-- news area start here  -->
-    <section class="cp-news-area cp-bg-15 pt-145 pb-80 fix">
-        <div class="cp-news-title-wrap mb-35 wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.3">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-xl-6">
-                    <div class="cp-section-title">
-                    <span class="cp-subtitle mb-15">Latest News</span>
-                    <h2 class="cp-title mb-25">Our <span>latest news</span></h2>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="cp-news-view-btn text-xl-end mb-40">
-                    <a href="news.html" class="cp-border-btn">View All
-                        <span class="cp-border-btn__inner">
-                            <span class="cp-border-btn__blobs">
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                                <span class="cp-border-btn__blob"></span>
-                            </span>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-        <div class="cp-news4-wrap">
-            <article>
-                <div class="cp-news4-item">
-                    <div class="cp-news4-img p-relative w-img mb-30">
-                    <div class="cp-img-overlay wow"></div>
-                    <a href="news-details.html"><img src="img/news/news-3.jpg" alt="news"></a>
-                    </div>
-                    <div class="cp-news4-content mb-30">
-                    <div class="cp-news1-meta lh-1">
-                        <span><a href="blog.html">Print Shop</a></span>
-                        <span>January 02, 2023</span>
-                    </div>
-                    <h3 class="cp-news4-title"><a href="news-details.html">Print Online High-quality Business Cards
-                            With Chapa.</a></h3>
-                    <p class="cp-news4-text mb-20">Business cards are anything but old-fashioned. They still
-                        represent the best and most
-                        direct way of remaining in your
-                        contact's minds. For this reason it is important that your business card is of quality
-                        and able to transmit.</p>
-                    <h5 class="cp-news-post-by">Author : <a href="#">Johann Doe</a></h5>
-                    </div>
-                    <div class="cp-news4-btn mb-30 text-lg-end">
-                    <a class="cp-border2-btn" href="news-details.html">read more</a>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="cp-news4-item">
-                    <div class="cp-news4-img p-relative w-img mb-30">
-                    <div class="cp-img-overlay wow"></div>
-                    <a href="news-details.html"><img src="img/news/news-2.jpg" alt="news"></a>
-                    </div>
-                    <div class="cp-news4-content mb-30">
-                    <div class="cp-news1-meta lh-1">
-                        <span><a href="blog.html">Banner Design</a></span>
-                        <span>January 02, 2023</span>
-                    </div>
-                    <h3 class="cp-news4-title"><a href="news-details.html">Can you Scan my Hard copies into
-                            Electronic.</a></h3>
-                    <p class="cp-news4-text mb-20">Business cards are anything but old-fashioned. They still
-                        represent the best and most
-                        direct way of remaining in your
-                        contact's minds. For this reason it is important that your business card is of quality
-                        and able to transmit.</p>
-                    <h5 class="cp-news-post-by">Author : <a href="#">Mr Don</a></h5>
-                    </div>
-                    <div class="cp-news4-btn mb-30 text-lg-end">
-                    <a class="cp-border2-btn" href="news-details.html">read more</a>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="cp-news4-item">
-                    <div class="cp-news4-img p-relative w-img mb-30">
-                    <div class="cp-img-overlay wow"></div>
-                    <a href="news-details.html"><img src="img/news/news-1.jpg" alt="news"></a>
-                    </div>
-                    <div class="cp-news4-content mb-30">
-                    <div class="cp-news1-meta lh-1">
-                        <span><a href="blog.html">Flyer Design</a></span>
-                        <span>January 02, 2023</span>
-                    </div>
-                    <h3 class="cp-news4-title"><a href="news-details.html">What Mockup Type Do you Accept for
-                            Printing.</a></h3>
-                    <p class="cp-news4-text mb-20">Business cards are anything but old-fashioned. They still
-                        represent the best and most
-                        direct way of remaining in your
-                        contact's minds. For this reason it is important that your business card is of quality
-                        and able to transmit.</p>
-                    <h5 class="cp-news-post-by">Author : <a href="#">Mr Harry</a></h5>
-                    </div>
-                    <div class="cp-news4-btn mb-30 text-lg-end">
-                    <a class="cp-border2-btn" href="news-details.html">read more</a>
-                    </div>
-                </div>
-            </article>
-        </div>
-        </div>
-    </section>
-    <!-- news area end here  -->
-
-    <!-- brand area start here  -->
-    <div class="cp-brand-area pt-110 pb-110">
-        <div class="container">
-        <div class="row wow fadeInUp animated" data-wow-duration="1.5s" data-wow-delay="0.3">
-            <div class="col-xl-12">
-                <div class="cp-brand-wrap">
-                    <div class="swiper-container cp-brand-active">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="cp-brand-img m-img">
-                                <img src="img/brand/brand-1.png" alt="brand">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cp-brand-img m-img">
-                                <img src="img/brand/brand-2.png" alt="brand">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cp-brand-img m-img">
-                                <img src="img/brand/brand-3.png" alt="brand">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cp-brand-img m-img">
-                                <img src="img/brand/brand-4.png" alt="brand">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cp-brand-img m-img">
-                                <img src="img/brand/brand-5.png" alt="brand">
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- brand area end here  -->
-
-    <!-- floating area start here  -->
-    <div class="cp-floating-area d-none d-md-block zi-1100 p-relative ">
-        <div class="cp-floating-action cp-bg-move-y">
-        <span class="cp-floating-btn cp-floating-phone-btn cp" data-bs-toggle="modal"
-            data-bs-target="#phonePopup"><i class="fal fa-phone-alt"></i></span>
-        <span class="cp-floating-btn cp-floating-location-btn cp" data-bs-toggle="modal"
-            data-bs-target="#locationPopup"><i class="fal fa-location-arrow"></i></span>
-        <span class="cp-floating-btn cp-floating-form-btn cp" data-bs-toggle="modal" data-bs-target="#formPopup"><i
-                class="fal fa-envelope-open-text"></i></span>
-        </div>
-
-        <!-- phone Modal start -->
-        <div class="modal fade cp-floating-model" id="phonePopup" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="phonePopupLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-                <div class="cp-floating-item cp-phone-popup" id="phonePopupLabel">
-                    <div class="cp-floating-left w-img">
-                    <img src="img/cta/popup2.jpg" alt="contact">
-                    </div>
-                    <div class="cp-floating-text">
-                    <h4 class="cp-floating-title">Our <span>Office Time</span></h4>
-                    <div class="cp-floating-text-inner">
-                        <span class="cp-floating-text-inner-icon">
-                            <i class="fal fa-calendar-day"></i>
-                        </span>
-                        <span class="cp-floating-text-inner-text">monday - sunday</span>
-                    </div>
-                    <div class="cp-floating-text-inner">
-                        <span class="cp-floating-text-inner-icon">
-                            <i class="fal fa-watch"></i>
-                        </span>
-                        <span class="cp-floating-text-inner-text">8.00 am - 9.00 pm</span>
-                    </div>
-                    <div class="cp-floating-text-inner">
-                        <span class="cp-floating-text-inner-icon">
-                            <i class="far fa-phone-alt"></i>
-                        </span>
-                        <span class="cp-floating-text-inner-text"><a
-                                href="tel:+910265362003">+910265362003</a></span>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!-- phone Modal end -->
-
-        <!-- location Modal start -->
-        <div class="modal fade cp-floating-model" id="locationPopup" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="locationPopupLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="cp-floating-item cp-location-popup" id="locationPopupLabel">
-                    <div class="cp-floating-left">
-                    <div class="cp-floating-location">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.14184006557!2d-77.0846156762382!3d38.89386718919168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2sbd!4v1671881294236!5m2!1sen!2sbd"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    </div>
-                    <div class="cp-floating-text">
-                    <h4 class="cp-floating-title">know <span>our location</span></h4>
-                    <div class="cp-floating-text-inner">
-                        <span class="cp-floating-text-inner-icon">
-                            <i class="fal fa-location-arrow"></i>
-                        </span>
-                        <span class="cp-floating-text-inner-text"><a target="_blank"
-                                href="https://www.google.com/maps/@38.8938672,-77.0846157,12z">88
-                                New Street,
-                                Washington DC,
-                                America</a></span>
-                    </div>
-                    <div class="cp-floating-text-inner">
-                        <span class="cp-floating-text-inner-icon">
-                            <i class="fal fa-location-arrow"></i>
-                        </span>
-                        <span class="cp-floating-text-inner-text"><a target="_blank"
-                                href="https://www.google.com/maps/@1.952577,44.3912535,3z">100 New
-                                Street, melbon,
-                                Australian</a></span>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!-- location Modal end -->
-
-        <!-- form Modal start -->
-        <div class="modal fade cp-floating-model" id="formPopup" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="formPopupLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="cp-floating-item" id="formPopupLabel">
-                    <div class="cp-floating-form-img w-img">
-                    <img src="img/cta/cta-img.png" alt="contact">
-                    </div>
-                    <div class="cp-floating-left cp-signup-popup">
-                    <h3 class="cp-floating-title">Do you have any question?</h3>
-                    <div class="cp-floating-form">
-                        <form action="#">
+                        <div class="container">
                             <div class="row">
-                                <div class="col-xl-6">
-                                <div class="cp-input-field">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" id="name">
-                                </div>
-                                </div>
-                                <div class="col-xl-6">
-                                <div class="cp-input-field">
-                                    <label for="email">Your Email</label>
-                                    <input type="email" id="email">
-                                </div>
-                                </div>
-                                <div class="col-xl-12">
-                                <div class="cp-input-field">
-                                    <label for="message">Your question</label>
-                                    <textarea id="message" cols="30" rows="10"></textarea>
-                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-8">
+
+                                    <div class="vl-hero-box">
+                                        <div class="vl-hero-box-info">
+
+                                            <!-- Hero Heading -->
+                                            <div class="vl-hero-heading">
+                                                <div class="vl-hero-subtitle">
+                                                    <h2>
+                                                        <img 
+                                                            src="{{ asset('img/icon/hero-sub-title-icon-hm1.svg') }}" 
+                                                            alt=""
+                                                        >
+                                                        Breathe New Life into Every Room
+                                                    </h2>
+                                                </div>
+
+                                                <div class="space22"></div>
+
+                                                <div class="vl-hero-title">
+                                                    <h1>
+                                                        Expert Painters <br>
+                                                        Ready to Refresh <br>
+                                                        Your Space
+                                                    </h1>
+                                                </div>
+                                            </div>
+
+                                            <div class="space34"></div>
+
+                                            <!-- Hero Info List -->
+                                            <div class="vl-hero-info-content">
+
+                                                <div class="item-list">
+                                                    <div class="item-icons">
+                                                        <img 
+                                                            src="{{ asset('img/icon/item-list-icon-hero.svg') }}" 
+                                                            alt=""
+                                                        >
+                                                    </div>
+                                                    <h2>FREE Phone Estimates.</h2>
+                                                </div>
+
+                                                <div class="space20"></div>
+
+                                                <div class="item-list">
+                                                    <div class="item-icons">
+                                                        <img 
+                                                            src="{{ asset('img/icon/item-list-icon-hero.svg') }}" 
+                                                            alt=""
+                                                        >
+                                                    </div>
+                                                    <h2>
+                                                        We help you select the right wallpaper <br>
+                                                        and calculate the needed amount.
+                                                    </h2>
+                                                </div>
+
+                                                <div class="space20"></div>
+
+                                                <div class="item-list">
+                                                    <div class="item-icons">
+                                                        <img 
+                                                            src="{{ asset('img/icon/item-list-icon-hero.svg') }}" 
+                                                            alt=""
+                                                        >
+                                                    </div>
+                                                    <h2>
+                                                        We handle all types of wallpaper surfaces, <br>
+                                                        ensuring top results no matter the complexity.
+                                                    </h2>
+                                                </div>
+
+                                                <div class="space28"></div>
+
+                                                <!-- Hero Button -->
+                                                <div class="vl-hero-btn">
+                                                    <div class="btn_area1">
+                                                        <a href="{{ route('contact') }}" class="vl-btn1">
+                                                            Start Your Transformation
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- End Hero Info -->
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                            <button type="submit" class="cp-btn mt-20">
-                                send question
-                                <span class="cp-btn__inner">
-                                <span class="cp-btn__blobs">
-                                    <span class="cp-btn__blob"></span>
-                                    <span class="cp-btn__blob"></span>
-                                    <span class="cp-btn__blob"></span>
-                                    <span class="cp-btn__blob"></span>
-                                </span>
-                                </span>
-                            </button>
-                        </form>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--===== HERO AREA ENDS =======-->
+
+
+
+<!--===== ABOUT AREA STARTS =======-->
+<div class="about1 sp1">
+  <div class="container">
+    <div class="row  align-items-center">
+       <div class="col-xl-6">
+          <div class="col-xl-12">
+            <div class="row">
+             <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-out" data-aos-duration="900">
+                <div class="about-exp-box">
+                    <h2><span class="counter">20</span>+</h2>
+                    <div class="space20"></div>
+                    <p>Years Of Experience</p>
+                    <div class="space80"></div>
+                    <h3>We’ve built A reputation <br> For quality, Reliability, <br> And Craftsmanship.</h3>
+                </div>
+             </div>
+             <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="about1-box-banner-sm image-anime reveal">
+                    <img src="img/about/about-box-smbanner-hm1.html" alt="">
+                </div>
+             </div>
+            </div>
+            <div class="space30"></div>
+            <div class="col-xl-12">
+             <div class="about1-lrg-banner image-anime reveal">
+              <img src="img/about/about-box-lrgbanner-hm1.html" alt="">
+            </div>
+            </div>
+          </div>
+       </div>
+       <div class="col-xl-6">
+          <div class="about1-info">
+                  <div class="vl-about-title-area">
+                     <h3 class="sub-title" data-aos="fade-left" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">About Us</h3>
+                     <div class="space22"></div>
+                     <h2 class="title text-anime-style-3" data-aos="fade-left" data-aos-duration="900">Transform Your Home with Professional Painting</h2>
+                     <div class="space16"></div>
+                     <p data-aos="fade-left" data-aos-duration="1000" class="text-effect">We believe that the right paint or wallpaper completely transform <br> a space. With years of experience & a passion for detail, our <br> team is dedicated to delivering top-quality renovation services.</p>
+                  </div>
+              <div class="space32"></div>
+              <div class="about1-info-content">
+                   <div class="about1-info-contentbox" data-aos="fade-left" data-aos-duration="1100">
+                      <div class="about1-contentbox-icon">
+                         <img src="img/icon/about1-box-icon.html" alt="">
+                      </div>
+                      <div class="about1-contentbox-text">
+                          <h2><a href="about-us.html">Unleash the Power of Color in Your Home</a></h2>
+                          <div class="space18"></div>
+                          <p>We’re passionate about transforming your space with <br> beautiful, long-lasting paint. Our expert team uses</p>
+                      </div>
+                   </div>
+                   <div class="space32"></div>
+                    <div class="about1-info-contentbox" data-aos="fade-left" data-aos-duration="1200">
+                      <div class="about1-contentbox-icon">
+                         <img src="img/icon/about1-box-icon(2).html" alt="">
+                      </div>
+                      <div class="about1-contentbox-text">
+                          <h2><a href="about-us.html">Your Home, Your Style, Perfectly Painted</a></h2>
+                          <div class="space18"></div>
+                          <p>From classic neutrals to statements, saiin specializes <br> in delivering personalized painting solutions tailored</p>
+                      </div>
+                   </div>
+              </div>
+              <div class="space32"></div>
+              <div class="about1-btn-area" data-aos="fade-left" data-aos-duration="1200">
+                  <div class="btn_area1">
+                      <a href="about-us.html" class="vl-btn1">Let’s Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </div>
+  </div>
+   <div class="about1-shape">
+       <div class="about1-shape-img aniamtion-key-2">
+         <img src="img/shape/about1-shape.html" alt="">
+       </div>
+   </div>
+</div>
+<!--===== ABOUT AREA ENDS =======-->
+
+
+<!--===== Our_services AREA STARTS =======-->
+ <div class="vl-our_services_area sp1">
+     <div class="container">
+       <div class="row">
+           <div class="our_services_top">
+               <div class="our_services_heading">
+                  <div class="vl-about-title-area">
+                     <h3 class="sub-title" data-aos="fade-right" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">Our Services</h3>
+                     <div class="space22"></div>
+                     <h2 class="title text-anime-style-3" data-aos="fade-right" data-aos-duration="900">Comprehensive Painting <br> Services for Every Room</h2>
+                  </div>
+               </div>
+               <div class="our_services_top_btn " data-aos="fade-left" data-aos-duration="900">
+                   <div class="btn_area1">
+                      <a href="service.html" class="vl-btn1">View Services <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+           </div>
+           <div class="space60"></div>
+            <div class="swiper our_services1 " data-aos="fade-up" data-aos-duration="1200" data-aos-offset="80">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                       <div class="our_services1_info">
+               <div class="our_services1_info_banner">
+                  <img src="img/service/our_service1_(1).html" alt="">
+                  <div class="our_services1_info_banner_content">
+                     <h3><a href="service.html">Cabinet Refinishing & Painting</a></h3>
+                     <div class="space12"></div>
+                     <p>Give your kitchen or bathroom whole new  look with our cabinet refinishing & paintin</p>
+                     <div class="space14"></div>
+                     <a class="view_services" href="service-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+                       </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="our_services1_info">
+               <div class="our_services1_info_banner">
+                  <img src="img/service/our_service1_(2).html" alt="">
+                  <div class="our_services1_info_banner_content">
+                     <h3><a href="service.html">Cabinet Refinishing & Painting</a></h3>
+                     <div class="space12"></div>
+                     <p>Give your kitchen or bathroom whole new  look with our cabinet refinishing & paintin</p>
+                     <div class="space14"></div>
+                     <a class="view_services" href="service-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+                       </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="our_services1_info">
+               <div class="our_services1_info_banner">
+                  <img src="img/service/our_service1_(3).html" alt="">
+                  <div class="our_services1_info_banner_content">
+                     <h3><a href="service.html">Cabinet Refinishing & Painting</a></h3>
+                     <div class="space12"></div>
+                     <p>Give your kitchen or bathroom whole new  look with our cabinet refinishing & paintin</p>
+                     <div class="space14"></div>
+                     <a class="view_services" href="service-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+                       </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="our_services1_info">
+               <div class="our_services1_info_banner">
+                  <img src="img/service/our_service1_(4).html" alt="">
+                  <div class="our_services1_info_banner_content">
+                     <h3><a href="service.html">Cabinet Refinishing & Painting</a></h3>
+                     <div class="space12"></div>
+                     <p>Give your kitchen or bathroom whole new look with our cabinet refinishing & paintin</p>
+                     <div class="space14"></div>
+                     <a class="view_services" href="service-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+                       </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="our_services1_info">
+               <div class="our_services1_info_banner">
+                  <img src="img/service/our_service1_(5).html" alt="">
+                  <div class="our_services1_info_banner_content">
+                     <h3><a href="service.html">Cabinet Refinishing & Painting</a></h3>
+                     <div class="space12"></div>
+                     <p>Give your kitchen or bathroom whole new look with our cabinet refinishing & paintin</p>
+                     <div class="space14"></div>
+                     <a class="view_services" href="service-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+                       </div>
+                  </div>
+                </div>
+            </div>
+            <div class="space22"></div>
+            <div class="vl-our_services_arrow">
+              <div class="our_services_arrow_slider1">
+                  <div class="next-arrow">
+                     <button><i class="fa-solid fa-angle-left"></i></button>
+                   </div>
+              </div>
+                   <div class="prev-arrow">
+                     <button><i class="fa-solid fa-angle-right"></i></button>
+                   </div>
+            </div>
+
+          
+
+       </div>
+     </div>
+ </div>
+<!--===== Our_services AREA ENDS =======-->
+
+
+<!--===== CHOOSE AREA START =======-->
+<div class="vl-choose1-area sp1">
+    <div class="container">
+       <div class="row">
+           <div class="col-xl-8 mx-auto">
+              <div class="vl-choose1-heading text-center">
+                <div class="vl-about-title-area">
+                      <h3 class="sub-title" data-aos="zoom-in" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">Why Choose Us</h3>
+                      <div class="space22"></div>
+                      <h2 class="title text-anime-style-3" data-aos="zoom-in" data-aos-duration="800">More Than Just Paint We <br> Deliver Peace of Mind</h2>
+                  </div>
+                </div>
+           </div>
+           <div class="space60"></div>
+           <div class="col-xl-6 col-lg-6">
+              <div class="vl-choose1-content" data-aos="fade-right" data-aos-duration="800">
+                 <h2><a href="service.html">Your Satisfaction is Our Priority</a></h2>
+                 <div class="space16"></div>
+                 <p>We’re not happy until you From the moment you reach out to <br> us you’ll experience a level of professionalism & care that sets</p>
+              </div>
+              <div class="space30"></div>
+              <div class="vl-choose1-content" data-aos="fade-right" data-aos-duration="900">
+                 <h2><a href="service-single.html">We Bring Professionalism to Every Project</a></h2>
+                 <div class="space16"></div>
+                 <p>Choosing the right painting company matters. With saiin, <br> you’re getting a values punctuality, clear communication.</p>
+              </div>
+              <div class="space30"></div>
+              <div class="vl-choose1-content" data-aos="fade-right" data-aos-duration="1000">
+                 <h2><a href="service-single.html">Trusted by Homeowners Backed by Results.</a></h2>
+                 <div class="space16"></div>
+                 <p>Don’t just take our word for it our clients love transformation <br> we bring to their spaces with of experience, high-quality.</p>
+              </div>
+           </div>
+           <div class="col-xl-6 col-lg-6">
+            <div class="vl-choose1-banner">
+               <div class="banner-shape1 image-anime reveal">
+                  <img src="img/choosse/chosse1-banner-1.html" alt="">
+               </div>
+               <div class="banner-shape2 text-end image-anime reveal">
+                 <img src="img/choosse/chosse1-banner-2.html" alt="">
+               </div>
+            </div>
+           </div>
+       </div>
+    </div>
+</div>
+<!--===== CHOOSE  AREA ENDS =======-->
+
+<!--===== WORK  AREA START =======-->
+<div class="work1-area sp1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 mx-auto">
+           <div class="vl-work-heading-area text-center">
+                <h3 data-aos="zoom-in" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">How WE Work</h3>
+                <div class="space22"></div>
+                <h2 class="text-anime-style-3" data-aos="zoom-in" data-aos-duration="900">How We Bring Your Vision to Life</h2>
+           </div>
+        </div>
+        <div class="space80"></div>
+        <div class="row">
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="900">
+               <div class="work1-contentbox">
+                    <div class="work1-box-icon">
+                        <img src="img/icon/work1-box-icon(1).html" alt="">
                     </div>
+                    <div class="space24"></div>
+                    <div class="work1-box-text">
+                        <h2><a href="projects-single.html">Free Consultation</a></h2>
+                        <div class="space16"></div>
+                        <p>During this consultation, we assess your <br> space, offer color recommendations if <br> needed, deliver a no-obligation quote.</p>
+                    </div>
+                    <div class="work1-box-topshape">
+                        <h2>01</h2>
+                    </div>
+               </div>
+           </div>
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="900">
+                <div class="work1-contentbox">
+                    <div class="work1-box-icon">
+                        <img src="img/icon/work1-box-icon(2).html" alt="">
+                    </div>
+                    <div class="space24"></div>
+                    <div class="work1-box-text">
+                        <h2><a href="projects-single.html">Detailed Preparation</a></h2>
+                        <div class="space16"></div>
+                        <p>Before any paint goes the wall, we make <br> sure the surface is ready. This includes <br> covering furniture, repairing small.</p>
+                    </div>
+                    <div class="work1-box-topshape">
+                        <h2>02</h2>
+                    </div>
+               </div>
+           </div>
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="900">
+                             <div class="work1-contentbox">
+                    <div class="work1-box-icon">
+                        <img src="img/icon/work1-box-icon(3).html" alt="">
+                    </div>
+                    <div class="space24"></div>
+                    <div class="work1-box-text">
+                        <h2><a href="#">Professional Painting</a></h2>
+                        <div class="space16"></div>
+                        <p>Our experienced painters get work with precision care. We use premium paints and industry-best techniques to apply.</p>
+                    </div>
+                    <div class="work1-box-topshape">
+                        <h2>03</h2>
+                    </div>
+               </div>
+           </div>
+         </div>
+      </div>
+    </div>
+</div>
+<!--===== WORK AREA ENDS =======-->
+
+<!--===== PROJECT AREA START =======-->
+<div class="project1 sp2">
+  <div class="container">
+    <div class="row">
+        <div class="col-xl-7 mx-auto">
+          <div class="vl-project-area text-center">
+             <div class="vl-about-title-area">
+                      <h3 class="sub-title" data-aos="zoom-in" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">Our Projects</h3>
+                      <div class="space22"></div>
+                      <h2 class="title text-anime-style-3" data-aos="zoom-in" data-aos-duration="900">What We’ve Been Working On</h2>
+              </div>
+          </div>
+        </div>
+        <div class="space60"></div>
+        
+        <div class="row">
+          <div class="col-lg-6">
+              <div class="project1-info">
+                  <div class="project1-before-thumb reveal">
+                        <img class="before_imgs" src="img/projects/before_thumb(1.1).html" alt="">
+                        <div class="thumb-text">
+                            <h4>Before</h4>
+                        </div>
+                  </div>
+                  <div class="project1-after-thumb reveal">
+                        <img class="after_imgs" src="img/projects/after_thumb(1.1).html" alt="">
+                        <div class="thumb-text">
+                            <h4>After</h4>
+                        </div>
+                  </div>
+               </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project1-info">
+                  <div class="project1-before-thumb reveal">
+                        <img class="before_imgs" src="img/projects/before_thumb(2.1).html" alt="">
+                        <div class="thumb-text">
+                            <h4>Before</h4>
+                        </div>
+                  </div>
+                  <div class="project1-after-thumb reveal">
+                        <img class="after_imgs" src="img/projects/after_thumb(2.1).html" alt="">
+                        <div class="thumb-text">
+                            <h4>After</h4>
+                        </div>
+                  </div>
+               </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+<!--===== PROJECT AREA ENDS =======-->
+
+<!--===== TESTIMONIAL AREA STARTS =======-->
+<div class="testimonial1 sp1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 mx-auto">
+            <div class="vl-testimonial-heading text-center">
+                <div class="vl-about-title-area">
+                        <h3 class="title_area_testimonial1" data-aos="zoom-in" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">Testimonials</h3>
+                        <div class="space22"></div>
+                        <h2 class="title_area_testimonial1 text-anime-style-3" data-aos="zoom-in" data-aos-duration="900">What Our Clients Are Saying</h2>
+                </div>
+            </div>
+           </div>
+           <div class="space60"></div>
+           <div class="row">
+             <div class="col-xl-10 mx-auto " data-aos="fade-up" data-aos-duration="900" data-aos-offset="80">
+              <div class="teasimonial_1_slider_arrows">
+
+         <div class="swiper mySwipertestimo1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                         <div class="vl-testimonial1-info">
+                     <div class="vl-testimonial1-info-content">
+                          <div class="star_icon">
+                            <ul>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                           </ul>
+                          </div>  
+                          <div class="space16"></div>
+                          <p class="p-text">“I couldn’t happier with the way my feature wall turned out. The <br> team was so professional, clean, the wallpaper looks absolutely <br> perfect. Highly recommend. Seamless install, perfectly lined up <br> patterns, and no mess left behind. These guys are true pros.”</p>
+                          <div class="space40"></div>
+                          <div class="testimonial1-bottom">
+                               <div class="testimonial1-bio">
+                                   <div class="testimonial1-bio-user">
+                                       <img src="img/testimonil/testimonials1-bio-user.html" alt="">
+                                   </div>
+                                   <div class="testimonial1-bio-text">
+                                      <h2><a href="testimonials.html">Marcus James K</a></h2>
+                                      <div class="space12"></div>
+                                      <p>Interior Designer</p>
+                                   </div>
+                               </div>
+                               <div class="testimonial1-bottom-logo">
+                                  <img src="img/logo/testi(1)logo_google.html" alt="">
+                               </div>
+                          </div>
+                     </div>
+                      <div class="line"></div>
+                      <div class="vl-testimonial1-counter-area">
+                        <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">500</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Walls Transformed</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">20</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Years Of Experience</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">99</span>%</h2>
+                            <div class="space18"></div>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                      </div>
+                         </div>
+                  </div>
+                  <div class="swiper-slide">
+                                            <div class="vl-testimonial1-info">
+                     <div class="vl-testimonial1-info-content">
+                          <div class="star_icon">
+                            <ul>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                           </ul>
+                          </div>  
+                          <div class="space16"></div>
+                          <p class="p-text">“I couldn’t happier with the way my feature wall turned out. The <br> team was so professional, clean, the wallpaper looks absolutely <br> perfect. Highly recommend. Seamless install, perfectly lined up <br> patterns, and no mess left behind. These guys are true pros.”</p>
+                          <div class="space40"></div>
+                          <div class="testimonial1-bottom">
+                               <div class="testimonial1-bio">
+                                   <div class="testimonial1-bio-user">
+                                       <img src="img/testimonil/testimonials1-bio-user.html" alt="">
+                                   </div>
+                                   <div class="testimonial1-bio-text">
+                                      <h2><a href="testimonials.html">Marcus James K</a></h2>
+                                      <div class="space12"></div>
+                                      <p>Interior Designer</p>
+                                   </div>
+                               </div>
+                               <div class="testimonial1-bottom-logo">
+                                  <img src="img/logo/testi(1)logo_google.html" alt="">
+                               </div>
+                          </div>
+                     </div>
+                      <div class="line"></div>
+                      <div class="vl-testimonial1-counter-area">
+                        <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">500</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Walls Transformed</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">20</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Years Of Experience</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">99</span>%</h2>
+                            <div class="space18"></div>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                      </div>
+                         </div>
+                  </div>
+                  <div class="swiper-slide">
+                                            <div class="vl-testimonial1-info">
+                     <div class="vl-testimonial1-info-content">
+                          <div class="star_icon">
+                            <ul>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                              <li><i class="fa-solid fa-star"></i></li>
+                           </ul>
+                          </div>  
+                          <div class="space16"></div>
+                          <p class="p-text">“I couldn’t happier with the way my feature wall turned out. The <br> team was so professional, clean, the wallpaper looks absolutely <br> perfect. Highly recommend. Seamless install, perfectly lined up <br> patterns, and no mess left behind. These guys are true pros.”</p>
+                          <div class="space40"></div>
+                          <div class="testimonial1-bottom">
+                               <div class="testimonial1-bio">
+                                   <div class="testimonial1-bio-user">
+                                       <img src="img/testimonil/testimonials1-bio-user.html" alt="">
+                                   </div>
+                                   <div class="testimonial1-bio-text">
+                                      <h2><a href="testimonials.html">Marcus James K</a></h2>
+                                      <div class="space12"></div>
+                                      <p>Interior Designer</p>
+                                   </div>
+                               </div>
+                               <div class="testimonial1-bottom-logo">
+                                  <img src="img/logo/testi(1)logo_google.html" alt="">
+                               </div>
+                          </div>
+                     </div>
+                      <div class="line"></div>
+                      <div class="vl-testimonial1-counter-area">
+                        <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">500</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Walls Transformed</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">20</span>+</h2>
+                            <div class="space18"></div>
+                            <p>Years Of Experience</p>
+                        </div>
+                        <div class="space24"></div>
+                          <div class="vl-testimonial1-counter-area-box">
+                            <h2><span class="counter">99</span>%</h2>
+                            <div class="space18"></div>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                      </div>
+                         </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial1-arrow">
+              <div class="testimonial1-arrow-left" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="prev-arrow">
+                     <button><i class="fa-solid fa-angle-left"></i></button>
+                   </div>
+              </div>
+              <div class="testimonial1-arrow-right" data-aos="fade-left" data-aos-duration="1000">
+                <div class="next-arrow">
+                     <button><i class="fa-solid fa-angle-right"></i></button>
+                 </div>
+              </div>
+         </div>
+              </div>
+             </div>
+           </div>
+        </div>
+         
+      </div>
+</div>
+<!--===== TESTIMONIAL AREA ENDS =======-->
+
+<!--===== SERVICE AREA STARTS =======-->
+<div class="service1-area">
+    <div class="container">
+       <div class="row">
+         <div class="col-xl-8 mx-auto">
+          <div class="vl-service1-area-heading text-center">
+             <div class="vl-about-title-area">
+                      <h3 class="sub-title" data-aos="zoom-in" data-aos-duration="800"><img src="img/icon/about-subtitle-icon-hm1.html" alt="">Tips & Inspiration</h3>
+                      <div class="space22"></div>
+                      <h2 class="title text-anime-style-3" data-aos="zoom-in" data-aos-duration="900">From the Brush Expert Advice</h2>
+              </div>
+          </div>
+         </div>
+         <div class="space60"></div>
+         <div class="col-xl-6 col-lg-6" data-aos="fade-right" data-aos-duration="900">
+            <div class="vl-service1-box">
+                <div class="vl-service1-box-banner">
+                   <div class="vl-service1-box-banner-img image-anime reveal">
+                     <img src="img/service/service1-banner(1).html" alt="">
+                   </div>
+                </div>
+                <div class="vl-service1-box-info">
+                    <div class="vl-service1-box-info-top">
+                        <div class="vl-service1-box-date">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                            <g clip-path="url(#clip0_446_6446)">
+                              <path d="M5.61627 0C5.80006 0 5.97633 0.0811248 6.1063 0.225528C6.23626 0.369931 6.30927 0.565783 6.30927 0.77V2.2099H13.7511V0.7799C13.7511 0.575683 13.8241 0.379831 13.9541 0.235428C14.084 0.0910248 14.2603 0.0099 14.4441 0.0099C14.6279 0.0099 14.8042 0.0910248 14.9341 0.235428C15.0641 0.379831 15.1371 0.575683 15.1371 0.7799V2.2099H17.82C18.345 2.2099 18.8484 2.44153 19.2197 2.85388C19.591 3.26622 19.7997 3.82551 19.8 4.4088V19.8011C19.7997 20.3844 19.591 20.9437 19.2197 21.356C18.8484 21.7684 18.345 22 17.82 22H1.98C1.45504 22 0.951572 21.7684 0.580278 21.356C0.208985 20.9437 0.000262479 20.3844 0 19.8011L0 4.4088C0.000262479 3.82551 0.208985 3.26622 0.580278 2.85388C0.951572 2.44153 1.45504 2.2099 1.98 2.2099H4.92327V0.7689C4.92353 0.564874 4.99666 0.369304 5.12659 0.225139C5.25653 0.0809736 5.43265 -2.0819e-07 5.61627 0ZM1.386 8.5162V19.8011C1.386 19.8878 1.40136 19.9736 1.43122 20.0537C1.46107 20.1337 1.50482 20.2065 1.55998 20.2678C1.61514 20.3291 1.68062 20.3777 1.75269 20.4109C1.82475 20.444 1.90199 20.4611 1.98 20.4611H17.82C17.898 20.4611 17.9752 20.444 18.0473 20.4109C18.1194 20.3777 18.1849 20.3291 18.24 20.2678C18.2952 20.2065 18.3389 20.1337 18.3688 20.0537C18.3986 19.9736 18.414 19.8878 18.414 19.8011V8.5316L1.386 8.5162ZM6.60033 16.0809V17.9135H4.95V16.0809H6.60033ZM10.7247 16.0809V17.9135H9.07533V16.0809H10.7247ZM14.85 16.0809V17.9135H13.1997V16.0809H14.85ZM6.60033 11.7062V13.5388H4.95V11.7062H6.60033ZM10.7247 11.7062V13.5388H9.07533V11.7062H10.7247ZM14.85 11.7062V13.5388H13.1997V11.7062H14.85ZM4.92327 3.7488H1.98C1.90199 3.7488 1.82475 3.76587 1.75269 3.79904C1.68062 3.83221 1.61514 3.88082 1.55998 3.94211C1.50482 4.0034 1.46107 4.07615 1.43122 4.15623C1.40136 4.2363 1.386 4.32213 1.386 4.4088V6.9773L18.414 6.9927V4.4088C18.414 4.32213 18.3986 4.2363 18.3688 4.15623C18.3389 4.07615 18.2952 4.0034 18.24 3.94211C18.1849 3.88082 18.1194 3.83221 18.0473 3.79904C17.9752 3.76587 17.898 3.7488 17.82 3.7488H15.1371V4.7707C15.1371 4.97492 15.0641 5.17077 14.9341 5.31517C14.8042 5.45958 14.6279 5.5407 14.4441 5.5407C14.2603 5.5407 14.084 5.45958 13.9541 5.31517C13.8241 5.17077 13.7511 4.97492 13.7511 4.7707V3.7488H6.30927V4.7608C6.30927 4.96502 6.23626 5.16087 6.1063 5.30527C5.97633 5.44968 5.80006 5.5308 5.61627 5.5308C5.43247 5.5308 5.25621 5.44968 5.12624 5.30527C4.99628 5.16087 4.92327 4.96502 4.92327 4.7608V3.7488Z" fill="#00334E"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_446_6446o">
+                                <rect width="19.8" height="22" fill="white"/>
+                              </clipPath>
+                            </defs>
+                          </svg>26 Aug 2025</a>
+                        </div>
+                        <div class="vl-service1-top_line">
+                          <span>|</span>
+                        </div>
+                        <div class="vl-service1-box-right_hover">
+                            <a href="blog-single.html">Painting Services</a>
+                        </div>
+                    </div>
+                    <div class="space16"></div>
+                    <div class="vl-service1-box-info-content">
+                        <h2><a href="blog-single.html">Brush Up On Style Painting Tips <br> Trends & Ideas for Every Home</a></h2>
+                        <div class="space16"></div>
+                        <p>Our experienced painters get work with <br> precision care. We use premium pai</p>
+                        <div class="space32"></div>
+                        <a class="view_services" href="blog-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <!-- form Modal end -->
+            <div class="service1_bottom_border"></div>
+         </div>
+         <div class="col-xl-6 col-lg-6" data-aos="fade-left" data-aos-duration="900">
+           <div class="vl-service1-box">
+                <div class="vl-service1-box-banner">
+                   <div class="vl-service1-box-banner-img image-anime reveal">
+                     <img src="img/service/service1-banner(2).html" alt="">
+                   </div>
+                </div>
+                <div class="vl-service1-box-info">
+                    <div class="vl-service1-box-info-top">
+                        <div class="vl-service1-box-date">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                            <g clip-path="url(#clip0_446_6446)">
+                              <path d="M5.61627 0C5.80006 0 5.97633 0.0811248 6.1063 0.225528C6.23626 0.369931 6.30927 0.565783 6.30927 0.77V2.2099H13.7511V0.7799C13.7511 0.575683 13.8241 0.379831 13.9541 0.235428C14.084 0.0910248 14.2603 0.0099 14.4441 0.0099C14.6279 0.0099 14.8042 0.0910248 14.9341 0.235428C15.0641 0.379831 15.1371 0.575683 15.1371 0.7799V2.2099H17.82C18.345 2.2099 18.8484 2.44153 19.2197 2.85388C19.591 3.26622 19.7997 3.82551 19.8 4.4088V19.8011C19.7997 20.3844 19.591 20.9437 19.2197 21.356C18.8484 21.7684 18.345 22 17.82 22H1.98C1.45504 22 0.951572 21.7684 0.580278 21.356C0.208985 20.9437 0.000262479 20.3844 0 19.8011L0 4.4088C0.000262479 3.82551 0.208985 3.26622 0.580278 2.85388C0.951572 2.44153 1.45504 2.2099 1.98 2.2099H4.92327V0.7689C4.92353 0.564874 4.99666 0.369304 5.12659 0.225139C5.25653 0.0809736 5.43265 -2.0819e-07 5.61627 0ZM1.386 8.5162V19.8011C1.386 19.8878 1.40136 19.9736 1.43122 20.0537C1.46107 20.1337 1.50482 20.2065 1.55998 20.2678C1.61514 20.3291 1.68062 20.3777 1.75269 20.4109C1.82475 20.444 1.90199 20.4611 1.98 20.4611H17.82C17.898 20.4611 17.9752 20.444 18.0473 20.4109C18.1194 20.3777 18.1849 20.3291 18.24 20.2678C18.2952 20.2065 18.3389 20.1337 18.3688 20.0537C18.3986 19.9736 18.414 19.8878 18.414 19.8011V8.5316L1.386 8.5162ZM6.60033 16.0809V17.9135H4.95V16.0809H6.60033ZM10.7247 16.0809V17.9135H9.07533V16.0809H10.7247ZM14.85 16.0809V17.9135H13.1997V16.0809H14.85ZM6.60033 11.7062V13.5388H4.95V11.7062H6.60033ZM10.7247 11.7062V13.5388H9.07533V11.7062H10.7247ZM14.85 11.7062V13.5388H13.1997V11.7062H14.85ZM4.92327 3.7488H1.98C1.90199 3.7488 1.82475 3.76587 1.75269 3.79904C1.68062 3.83221 1.61514 3.88082 1.55998 3.94211C1.50482 4.0034 1.46107 4.07615 1.43122 4.15623C1.40136 4.2363 1.386 4.32213 1.386 4.4088V6.9773L18.414 6.9927V4.4088C18.414 4.32213 18.3986 4.2363 18.3688 4.15623C18.3389 4.07615 18.2952 4.0034 18.24 3.94211C18.1849 3.88082 18.1194 3.83221 18.0473 3.79904C17.9752 3.76587 17.898 3.7488 17.82 3.7488H15.1371V4.7707C15.1371 4.97492 15.0641 5.17077 14.9341 5.31517C14.8042 5.45958 14.6279 5.5407 14.4441 5.5407C14.2603 5.5407 14.084 5.45958 13.9541 5.31517C13.8241 5.17077 13.7511 4.97492 13.7511 4.7707V3.7488H6.30927V4.7608C6.30927 4.96502 6.23626 5.16087 6.1063 5.30527C5.97633 5.44968 5.80006 5.5308 5.61627 5.5308C5.43247 5.5308 5.25621 5.44968 5.12624 5.30527C4.99628 5.16087 4.92327 4.96502 4.92327 4.7608V3.7488Z" fill="#00334E"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_446_6446b">
+                                <rect width="19.8" height="22" fill="white"/>
+                              </clipPath>
+                            </defs>
+                          </svg>22 Aug 2025</a>
+                        </div>
+                        <div class="vl-service1-top_line">
+                          <span>|</span>
+                        </div>
+                        <div class="vl-service1-box-right_hover">
+                            <a href="blog-single.html">Painting Services</a>
+                        </div>
+                    </div>
+                    <div class="space16"></div>
+                    <div class="vl-service1-box-info-content">
+                        <h2><a href="blog-single.html">Your Home. Your Color Story. <br>Explore Expert Advice & Fresh</a></h2>
+                        <div class="space16"></div>
+                        <p>Our experienced painters get work with <br> precision care. We use premium pai</p>
+                        <div class="space32"></div>
+                        <a class="view_services" href="blog-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="service1_bottom_border"></div>
+         </div>
+         <div class="col-xl-6 col-lg-6" data-aos="fade-right" data-aos-duration="900">
+             <div class="vl-service1-box">
+                <div class="vl-service1-box-banner">
+                   <div class="vl-service1-box-banner-img image-anime reveal">
+                     <img src="img/service/service1-banner(3).html" alt="">
+                   </div>
+                </div>
+                <div class="vl-service1-box-info">
+                    <div class="vl-service1-box-info-top">
+                        <div class="vl-service1-box-date">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                            <g clip-path="url(#clip0_446_6446)">
+                              <path d="M5.61627 0C5.80006 0 5.97633 0.0811248 6.1063 0.225528C6.23626 0.369931 6.30927 0.565783 6.30927 0.77V2.2099H13.7511V0.7799C13.7511 0.575683 13.8241 0.379831 13.9541 0.235428C14.084 0.0910248 14.2603 0.0099 14.4441 0.0099C14.6279 0.0099 14.8042 0.0910248 14.9341 0.235428C15.0641 0.379831 15.1371 0.575683 15.1371 0.7799V2.2099H17.82C18.345 2.2099 18.8484 2.44153 19.2197 2.85388C19.591 3.26622 19.7997 3.82551 19.8 4.4088V19.8011C19.7997 20.3844 19.591 20.9437 19.2197 21.356C18.8484 21.7684 18.345 22 17.82 22H1.98C1.45504 22 0.951572 21.7684 0.580278 21.356C0.208985 20.9437 0.000262479 20.3844 0 19.8011L0 4.4088C0.000262479 3.82551 0.208985 3.26622 0.580278 2.85388C0.951572 2.44153 1.45504 2.2099 1.98 2.2099H4.92327V0.7689C4.92353 0.564874 4.99666 0.369304 5.12659 0.225139C5.25653 0.0809736 5.43265 -2.0819e-07 5.61627 0ZM1.386 8.5162V19.8011C1.386 19.8878 1.40136 19.9736 1.43122 20.0537C1.46107 20.1337 1.50482 20.2065 1.55998 20.2678C1.61514 20.3291 1.68062 20.3777 1.75269 20.4109C1.82475 20.444 1.90199 20.4611 1.98 20.4611H17.82C17.898 20.4611 17.9752 20.444 18.0473 20.4109C18.1194 20.3777 18.1849 20.3291 18.24 20.2678C18.2952 20.2065 18.3389 20.1337 18.3688 20.0537C18.3986 19.9736 18.414 19.8878 18.414 19.8011V8.5316L1.386 8.5162ZM6.60033 16.0809V17.9135H4.95V16.0809H6.60033ZM10.7247 16.0809V17.9135H9.07533V16.0809H10.7247ZM14.85 16.0809V17.9135H13.1997V16.0809H14.85ZM6.60033 11.7062V13.5388H4.95V11.7062H6.60033ZM10.7247 11.7062V13.5388H9.07533V11.7062H10.7247ZM14.85 11.7062V13.5388H13.1997V11.7062H14.85ZM4.92327 3.7488H1.98C1.90199 3.7488 1.82475 3.76587 1.75269 3.79904C1.68062 3.83221 1.61514 3.88082 1.55998 3.94211C1.50482 4.0034 1.46107 4.07615 1.43122 4.15623C1.40136 4.2363 1.386 4.32213 1.386 4.4088V6.9773L18.414 6.9927V4.4088C18.414 4.32213 18.3986 4.2363 18.3688 4.15623C18.3389 4.07615 18.2952 4.0034 18.24 3.94211C18.1849 3.88082 18.1194 3.83221 18.0473 3.79904C17.9752 3.76587 17.898 3.7488 17.82 3.7488H15.1371V4.7707C15.1371 4.97492 15.0641 5.17077 14.9341 5.31517C14.8042 5.45958 14.6279 5.5407 14.4441 5.5407C14.2603 5.5407 14.084 5.45958 13.9541 5.31517C13.8241 5.17077 13.7511 4.97492 13.7511 4.7707V3.7488H6.30927V4.7608C6.30927 4.96502 6.23626 5.16087 6.1063 5.30527C5.97633 5.44968 5.80006 5.5308 5.61627 5.5308C5.43247 5.5308 5.25621 5.44968 5.12624 5.30527C4.99628 5.16087 4.92327 4.96502 4.92327 4.7608V3.7488Z" fill="#00334E"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_446_6446z">
+                                <rect width="19.8" height="22" fill="white"/>
+                              </clipPath>
+                            </defs>
+                          </svg>20 Aug 2025</a>
+                        </div>
+                        <div class="vl-service1-top_line">
+                          <span>|</span>
+                        </div>
+                        <div class="vl-service1-box-right_hover">
+                            <a href="blog-single.html">Painting Services</a>
+                        </div>
+                    </div>
+                    <div class="space16"></div>
+                    <div class="vl-service1-box-info-content">
+                        <h2><a href="blog-single.html">Painting Made Simple Pro Tips <br> & Trends for a Beautiful Home</a></h2>
+                        <div class="space16"></div>
+                        <p>Our experienced painters get work with <br> precision care. We use premium pai</p>
+                        <div class="space32"></div>
+                        <a class="view_services" href="blog-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="col-xl-6 col-lg-6" data-aos="fade-left" data-aos-duration="900">
+             <div class="vl-service1-box">
+                <div class="vl-service1-box-banner">
+                   <div class="vl-service1-box-banner-img image-anime reveal">
+                     <img src="img/service/service1-banner(4).html" alt="">
+                   </div>
+                </div>
+                <div class="vl-service1-box-info">
+                    <div class="vl-service1-box-info-top">
+                        <div class="vl-service1-box-date">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                            <g clip-path="url(#clip0_446_6446)">
+                              <path d="M5.61627 0C5.80006 0 5.97633 0.0811248 6.1063 0.225528C6.23626 0.369931 6.30927 0.565783 6.30927 0.77V2.2099H13.7511V0.7799C13.7511 0.575683 13.8241 0.379831 13.9541 0.235428C14.084 0.0910248 14.2603 0.0099 14.4441 0.0099C14.6279 0.0099 14.8042 0.0910248 14.9341 0.235428C15.0641 0.379831 15.1371 0.575683 15.1371 0.7799V2.2099H17.82C18.345 2.2099 18.8484 2.44153 19.2197 2.85388C19.591 3.26622 19.7997 3.82551 19.8 4.4088V19.8011C19.7997 20.3844 19.591 20.9437 19.2197 21.356C18.8484 21.7684 18.345 22 17.82 22H1.98C1.45504 22 0.951572 21.7684 0.580278 21.356C0.208985 20.9437 0.000262479 20.3844 0 19.8011L0 4.4088C0.000262479 3.82551 0.208985 3.26622 0.580278 2.85388C0.951572 2.44153 1.45504 2.2099 1.98 2.2099H4.92327V0.7689C4.92353 0.564874 4.99666 0.369304 5.12659 0.225139C5.25653 0.0809736 5.43265 -2.0819e-07 5.61627 0ZM1.386 8.5162V19.8011C1.386 19.8878 1.40136 19.9736 1.43122 20.0537C1.46107 20.1337 1.50482 20.2065 1.55998 20.2678C1.61514 20.3291 1.68062 20.3777 1.75269 20.4109C1.82475 20.444 1.90199 20.4611 1.98 20.4611H17.82C17.898 20.4611 17.9752 20.444 18.0473 20.4109C18.1194 20.3777 18.1849 20.3291 18.24 20.2678C18.2952 20.2065 18.3389 20.1337 18.3688 20.0537C18.3986 19.9736 18.414 19.8878 18.414 19.8011V8.5316L1.386 8.5162ZM6.60033 16.0809V17.9135H4.95V16.0809H6.60033ZM10.7247 16.0809V17.9135H9.07533V16.0809H10.7247ZM14.85 16.0809V17.9135H13.1997V16.0809H14.85ZM6.60033 11.7062V13.5388H4.95V11.7062H6.60033ZM10.7247 11.7062V13.5388H9.07533V11.7062H10.7247ZM14.85 11.7062V13.5388H13.1997V11.7062H14.85ZM4.92327 3.7488H1.98C1.90199 3.7488 1.82475 3.76587 1.75269 3.79904C1.68062 3.83221 1.61514 3.88082 1.55998 3.94211C1.50482 4.0034 1.46107 4.07615 1.43122 4.15623C1.40136 4.2363 1.386 4.32213 1.386 4.4088V6.9773L18.414 6.9927V4.4088C18.414 4.32213 18.3986 4.2363 18.3688 4.15623C18.3389 4.07615 18.2952 4.0034 18.24 3.94211C18.1849 3.88082 18.1194 3.83221 18.0473 3.79904C17.9752 3.76587 17.898 3.7488 17.82 3.7488H15.1371V4.7707C15.1371 4.97492 15.0641 5.17077 14.9341 5.31517C14.8042 5.45958 14.6279 5.5407 14.4441 5.5407C14.2603 5.5407 14.084 5.45958 13.9541 5.31517C13.8241 5.17077 13.7511 4.97492 13.7511 4.7707V3.7488H6.30927V4.7608C6.30927 4.96502 6.23626 5.16087 6.1063 5.30527C5.97633 5.44968 5.80006 5.5308 5.61627 5.5308C5.43247 5.5308 5.25621 5.44968 5.12624 5.30527C4.99628 5.16087 4.92327 4.96502 4.92327 4.7608V3.7488Z" fill="#00334E"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_446_6446d">
+                                <rect width="19.8" height="22" fill="white"/>
+                              </clipPath>
+                            </defs>
+                          </svg>24 Aug 2025</a>
+                        </div>
+                        <div class="vl-service1-top_line">
+                          <span>|</span>
+                        </div>
+                        <div class="vl-service1-box-right_hover">
+                            <a href="blog-single.html">Painting Services</a>
+                        </div>
+                    </div>
+                    <div class="space16"></div>
+                    <div class="vl-service1-box-info-content">
+                        <h2><a href="blog-single.html">Get Inspired by Color Expert <br> Painting Tips Transform Space</a></h2>
+                        <div class="space16"></div>
+                        <p>Our experienced painters get work with <br> precision care. We use premium pai</p>
+                        <div class="space32"></div>
+                        <a class="view_services" href="blog-single.html">View Services<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+       </div>
     </div>
-    <!-- floating area end here  -->
-
-</main>
+    <div class="service1-area-shape">
+       <div class="service1-area-shape-img aniamtion-key-2">
+          <img src="img/service/service1_shape.html" alt="">
+       </div>
+    </div>
+</div>
 
 @endsection

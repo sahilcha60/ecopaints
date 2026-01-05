@@ -1,39 +1,19 @@
-<!-- preloader  -->
-<div id="preloader">
-    <div id="ctn-preloader" class="ctn-preloader">
-        <div class="animation-preloader">
-        <div class="spinner"></div>
-        <div class="txt-loading">
-            <span data-text-preloader="C" class="letters-loading">
-                L
-            </span>
-            <span data-text-preloader="H" class="letters-loading">
-                O
-            </span>
-            <span data-text-preloader="A" class="letters-loading">
-                A
-            </span>
-            <span data-text-preloader="P" class="letters-loading">
-                D
-            </span>
-        </div>
-        </div>
-        <div class="loader">
-        <div class="row">
-            <div class="col-3 loader-section section-left">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-left">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-                <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-                <div class="bg"></div>
-            </div>
-        </div>
-        </div>
-    </div>
+<!--===== PRELOADER STARTS =======-->
+<div class="preloader">
+  <div class="loader"></div>
 </div>
-<!-- preloader end -->
+<!--===== PRELOADER ENDS =======-->
+
+<!--===== PROGRESS STARTS=======-->
+<div class="paginacontainer">
+     <div class="progress-wrap">
+       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+       </svg>
+     </div>
+   </div>
+ <!--===== PROGRESS ENDS=======-->
+
+ <!-- MouseCursor Start -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>

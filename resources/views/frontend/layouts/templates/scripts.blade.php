@@ -1,14 +1,21 @@
-<script src="{{asset('js/jquery.html')}}"></script>
-<script src="{{asset('js/waypoints.html')}}"></script>
-<script src="{{asset('js/bootstrap.bundle.min.html')}}"></script>
-<script src="{{asset('js/slick.html')}}"></script>
-<script src="{{asset('js/magnific-popup.html')}}"></script>
-<script src="{{asset('js/purecounter.html')}}"></script>
-<script src="{{asset('js/wow.html')}}"></script>
-<script src="{{asset('js/nice-select.html')}}"></script>
-<script src="{{asset('js/swiper-bundle.html')}}"></script>
-<script src="{{asset('js/isotope-pkgd.html')}}"></script>
-<script src="{{asset('js/range-slider.html')}}"></script>
-<script src="{{asset('js/imagesloaded-pkgd.html')}}"></script>
-<script src="{{asset('js/ajax-form.html')}}"></script>
-<script src="{{asset('js/main.html')}}"></script>
+<!--===== JS SCRIPT LINK =======-->
+<script src="{{asset('js/plugins/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/plugins/fontawesome.js')}}"></script>
+<script src="{{asset('js/plugins/aos.js')}}"></script>
+<script src="{{asset('js/plugins/counter.js')}}"></script>
+<script src="{{asset('js/plugins/magnific-popup.js')}}"></script>
+<script src="{{asset('js/plugins/owlcarousel.min.js')}}"></script>
+<script src="{{asset('js/plugins/nice-select.js')}}"></script>
+<script src="{{asset('js/plugins/waypoints.js')}}"></script>
+<script src="{{asset('js/plugins/slick-slider.js')}}"></script>
+<script src="{{asset('js/plugins/swiper.min.js')}}"></script>
+<script src="{{asset('js/plugins/parallaxie.js')}}"></script>
+
+<!-- GSAP ANIMATION -->
+<script src="{{asset('js/plugins/gsap.min.js')}}"></script>
+<script src="{{asset('js/plugins/ScrollTrigger.min.js')}}"></script>
+<script src="{{asset('js/plugins/Splitetext.js')}}"></script>
+<script src="{{asset('js/plugins/SmoothScroll.js')}}"></script>
+<!-- GSAP ANIMATION -->
+
+<script src="{{asset('js/main.js')}}"></script>

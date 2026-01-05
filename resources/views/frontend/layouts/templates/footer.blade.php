@@ -1,93 +1,128 @@
-<!-- footer area start  -->
-<footer>
-    <div class="cp-footer-wrap cp-bg-6 pt-145 pb-85">
-        <div class="container">
-        <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-                <div class="cp-footer-widget mb-50">
-                    <h4 class="cp-footer-widget-title">Useful Links</h4>
-                    <ul class="cp-footer-widget-link">
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="news.html">Our news</a></li>
-                    <li><a href="contact.html">Start a Return</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="shop.html">Shipping</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-                <div class="cp-footer-widget mb-50">
-                    <h4 class="cp-footer-widget-title">Our Services</h4>
-                    <ul class="cp-footer-widget-link">
-                    <li><a href="service-details.html">Printing Services</a></li>
-                    <li><a href="service-details.html">Digital Scanning</a></li>
-                    <li><a href="service-details.html">Design Services</a></li>
-                    <li><a href="service-details.html">Copying Services</a></li>
-                    <li><a href="service-details.html">Customize Design</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-10">
-                <div class="cp-footer-widget mb-50">
-                    <h4 class="cp-footer-widget-title">Newsletter</h4>
-                    <p class="mb-35">Printing for what’s to come. What’s more, we do it right! A full administration
-                    printing Get the latest news, events & more delivered to your inbox.</p>
-                    <div class="cp-footer-email-form mb-45">
-                    <form action="#">
-                        <input type="email" placeholder="Enter Your Mail Address">
-                        <button type="submit" class="cp-btn">
-                            Subscribe Now <i class="fal fa-paper-plane"></i>
-                            <span class="cp-btn__inner">
-                                <span class="cp-btn__blobs">
-                                <span class="cp-btn__blob"></span>
-                                <span class="cp-btn__blob"></span>
-                                <span class="cp-btn__blob"></span>
-                                <span class="cp-btn__blob"></span>
-                                </span>
-                            </span>
-                        </button>
-                    </form>
+<!--===== FOOTER AREA STARTS =======-->
+<div class="footer1">
+    <div class="container">
+      <div class="row">
+         <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-area-logo">
+                  <img src="{{asset('img/footer/footer1-logo.html')}}" alt="">
+                  <div class="space16"></div>
+                  <p>At Saiin, we’re more than just painterspassionate professionals committed to quality, reliability, and beautiful results. Whether it’s one room or your entire.</p>
+                  <div class="space24"></div>
+                  <ul class="social_link">
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                  </ul>
+              </div>
+         </div>
+         <div class="col-xl col-lg-4 col-md-6">
+           <div class="footer-widget-area">
+             <h3>Quick Links</h3>
+             <div class="space28"></div>
+             <ul>
+                <li><a href="index-3.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact </a></li>
+           </ul>
+           </div>
+         </div>
+         <div class="col-xl col-lg-4 col-md-6">
+           <div class="footer-widget-hour">
+              <h4>Business Hours</h4>
+              <div class="space28"></div>
+              <ul>
+                  <li><span><a class="f-date" href="#">Mon–Fri:</a></span> <span><a href="#">8:00 AM - 6:00 PM</a></span></li>
+                  <li><span><a class="f-date" href="#">Sat:</a></span> <span><a href="#">9:00 AM - 2:00 PM</a></span></li>
+                  <li><span><a class="f-date" href="#">Sun:</a></span> <span><a href="#">Closed</a></span></li>
+              </ul>
+           </div>
+         </div>
+         <div class="col-xl col-lg-4 col-md-6">
+            <div class="footer-area-gallery">
+               <h3>Gallery </h3>
+               <div class="space26"></div>
+               <div class="row gx-2">
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                    <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(1).html')}}" alt="">
                     </div>
-                    <div class="cp-footer-social">
-                    <ul>
-                        <li><a target="_blank" href="#">facebook <i class="fab fa-facebook-f"></i></a></li>
-                        <li><a target="_blank" href="#">Instagram <i class="fab fa-instagram"></i></a></li>
-                    </ul>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(2).html')}}" alt="">
                     </div>
-                </div>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(3).html')}}" alt="">
+                    </div>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(4).html')}}" alt="">
+                    </div>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(5).html')}}" alt="">
+                    </div>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                  <div class="footer-img">
+                       <img src="{{asset('img/footer/footer1-img-(6).html')}}" alt="">
+                    </div>
+                 </div>
+               </div>
             </div>
-        </div>
-        </div>
-    </div>
-    <div class="cp-copy-right cp-footer-bg pt-35 pb-20">
-        <div class="container">
-        <div class="cp-copy-item-wrap d-flex align-items-center justify-content-between">
-            <div class="cp-copy-item">
-                <div class="cp-footer-logo mb-15">
-                    <a href="index-2.html"><img src="{{asset('img/logo/white-logo.png')}}" alt="white-logo"></a>
-                </div>
+         </div>
+        <div class="row footer1_bottom_fixer">
+           <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="footer-subscribe">
+               <h3>Subscribe Our Newsletter</h3>
+               <div class="space24"></div>
+               <form action="#">
+                    <input type="email" placeholder="Email Address">
+                    <button class="sub_arrow" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
             </div>
-            <div class="cp-copy-item">
-                <div class="cp-footer-payment m-img mb-15">
-                    <img src="{{asset('img/footer/pament-method.png')}}" alt="pament-method">
-                </div>
-            </div>
-            <div class="cp-copy-item">
-                <div class="cp-copy-text mb-15 text-xl-end">
-                    <p class="mb-0 white-color">© 2023 <a href="#">Designs Craft</a>. All rights reserved.</p>
-                </div>
-            </div>
+          </div>
+          <div class="col-xl-8 col-lg-8">
+              <div class="footer-mobile-area">
+                  <div class="footer-mobile-area-info">
+                      <h4>Email:</h4>
+                      <div class="space10"></div>
+                      <a href="#">info@Saiin.com</a>
+                  </div>
+                   <div class="footer-mobile-area-info">
+                      <h4>Location:</h4>
+                      <div class="space10"></div>
+                      <a href="#">Charlotte, NC & Surrounding Areas</a>
+                  </div>
+                   <div class="footer-mobile-area-info">
+                      <h4>Phone:</h4>
+                      <div class="space10"></div>
+                      <a href="tel:(123)456-7890">(123) 456-7890</a>
+                  </div>
+              </div>
+          </div>
         </div>
-        </div>
-    </div>
-</footer>
-<!-- footer area end  -->
+        <div class="space32"></div>
+            <div class="footer1-copyright-area">
+               <a href="#">© Copyright 2025 Saiin . All rights reserved</a>
+            </div>
 
-<!-- back to top start -->
-<div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
+      </div>
+    </div>
 </div>
-<!-- back to top end -->
+<!--===== FOOTER AREA ENDS =======-->  

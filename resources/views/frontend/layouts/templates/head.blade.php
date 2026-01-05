@@ -1,21 +1,21 @@
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Designs Craft</title>
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/favicon.png')}}">
+     <!--=====FAB ICON=======-->
+    <link rel="shortcut icon" href="{{asset('img/logo/wallax-fab-logo.svg')}}" type="image/x-icon">
 
-   <link rel="stylesheet" href="{{asset('css/preloader.css')}}">
-   <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
-   <link rel="stylesheet" href="{{asset('css/meanmenu.css')}}">
-   <link rel="stylesheet" href="{{asset('css/animate.min.css')}}">
-   <link rel="stylesheet" href="{{asset('css/swiper-bundle.css')}}">
-   <link rel="stylesheet" href="{{asset('css/backToTop.css')}}">
-   <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
-   <link rel="stylesheet" href="{{asset('css/ui-range-slider.css')}}">
-   <link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
-   <link rel="stylesheet" href="{{asset('css/fontAwesome5Pro.css')}}">
-   <link rel="stylesheet" href="{{asset('css/hover-reveal.css')}}">
-   <link rel="stylesheet" href="{{asset('css/default.css')}}">
-   <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <!--===== CSS LINK =======-->
+    <link rel="stylesheet" href="{{asset('css/plugins/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/aos.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/owlcarousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/slick-slider.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugins/swiper.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+
+    <!--=====  JS SCRIPT LINK =======-->
+    <script src="{{asset('js/plugins/jquery-3-7-1.min.js')}}"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
