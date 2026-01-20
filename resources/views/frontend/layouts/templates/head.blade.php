@@ -1,21 +1,20 @@
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 
-     <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="{{asset('img/logo/wallax-fab-logo.svg')}}" type="image/x-icon">
+<!-- Stylesheets -->
+<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{asset('css/style.css')}}" rel="stylesheet">
+<link href="{{asset('css/responsive.css')}}" rel="stylesheet">
 
-    <!--===== CSS LINK =======-->
-    <link rel="stylesheet" href="{{asset('css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/aos.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/fontawesome.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/owlcarousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/slick-slider.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('css/plugins/swiper.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+<!-- Color Switcher Mockup -->
+<link href="{{asset('css/color-switcher-design.css')}}" rel="stylesheet">
 
-    <!--=====  JS SCRIPT LINK =======-->
-    <script src="{{asset('js/plugins/jquery-3-7-1.min.js')}}"></script>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">

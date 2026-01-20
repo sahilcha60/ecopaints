@@ -3,65 +3,32 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Str;
 
 class Category extends Model
 {
-    use HasFactory;
-
     protected $fillable = [
-        'name',
-        'slug',
-        'type',
+        'title',
         'description',
-        'is_active',
+        'image',
     ];
 
-    /*
-    |--------------------------------------------------------------------------
-    | Auto-generate slug from name
-    |--------------------------------------------------------------------------
-    */
-    protected static function booted()
+    /**
+     * Auto-generate slug when creating/updating
+     */
+    protected static function boot()
     {
-        static::creating(function ($category) {
+        parent::boot();
+
+        static::saving(function ($category) {
             if (empty($category->slug)) {
-                $category->slug = Str::slug($category->name);
-            }
-        });
-
-        static::updating(function ($category) {
-            if ($category->isDirty('name')) {
-                $category->slug = Str::slug($category->name);
+                $category->slug = Str::slug($category->title);
             }
         });
     }
 
-    /*
-    |--------------------------------------------------------------------------
-    | Relationships
-    |--------------------------------------------------------------------------
-    */
-
-    public function services()
+    public function subcategories()
     {
-        return $this->hasMany(Service::class);
-    }
-
-    public function products()
-    {
-        return $this->hasMany(Product::class);
-    }
-
-    public function blogs()
-    {
-        return $this->hasMany(Blog::class);
-    }
-
-    public function portfolios()
-    {
-        return $this->hasMany(Portfolio::class);
+        return $this->hasMany(SubCategory::class);
     }
 }
-

@@ -3,80 +3,51 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Support\Str;
 
 class Product extends Model
 {
-    use HasFactory;
-
     protected $fillable = [
-        'category_id',
-        'name',
-        'slug',
-        'description',
-        'base_price',
-        'images',
-        'is_customizable',
-        'is_active',
+        'sub_category_id',
+        'title',
+        'short_description',
+        'full_description',
+        'image',
+        'cover_image',
+        'divided_value',
     ];
 
-    protected $casts = [
-        'images' => 'array',
-        'is_customizable' => 'boolean',
-        'is_active' => 'boolean',
-        'base_price' => 'decimal:2',
-    ];
-
-    /*
-    |--------------------------------------------------------------------------
-    | Auto-generate slug from name
-    |--------------------------------------------------------------------------
-    */
-    protected static function booted()
+    protected static function boot()
     {
-        static::creating(function ($product) {
-            if (empty($product->slug)) {
-                $product->slug = Str::slug($product->name);
-            }
-        });
+        parent::boot();
 
-        static::updating(function ($product) {
-            if ($product->isDirty('name')) {
-                $product->slug = Str::slug($product->name);
+        static::saving(function ($product) {
+            if (empty($product->slug)) {
+                $product->slug = Str::slug($product->title);
             }
         });
     }
 
-    /*
-    |--------------------------------------------------------------------------
-    | Relationships
-    |--------------------------------------------------------------------------
-    */
+    public function subcategory()
+    {
+        return $this->belongsTo(SubCategory::class, 'sub_category_id');
+    }
 
     public function category()
     {
-        return $this->belongsTo(Category::class);
+        // Access category through subcategory
+        return $this->hasOneThrough(Category::class, SubCategory::class, 'id', 'id', 'sub_category_id', 'category_id');
     }
 
-    public function options()
+    // Features relation
+    public function features()
     {
-        return $this->hasMany(ProductOption::class);
+        return $this->hasMany(ProductFeature::class, 'product_id');
     }
 
-    public function orderItems()
+    // Steps relation
+    public function steps()
     {
-        return $this->hasMany(OrderItem::class);
-    }
-
-    /*
-    |--------------------------------------------------------------------------
-    | Scopes (Optional)
-    |--------------------------------------------------------------------------
-    */
-
-    public function scopeActive($query)
-    {
-        return $query->where('is_active', true);
+        return $this->hasMany(ProductStep::class, 'product_id');
     }
 }

@@ -6,16 +6,21 @@
     </head>
 
     <body>
+        <div class="page-wrapper">
         
-        @include('frontend.layouts.templates.header')
-        
-        @include('frontend.layouts.templates.offcanvas')
+        {{--  @include('frontend.layouts.templates.preloader') --}}
 
-        @yield('content')
+            @include('frontend.layouts.templates.header')
+
+            @yield('content')
+
+            @include('frontend.layouts.templates.footer')
+
+            @include('frontend.layouts.templates.offcanvas')
+
+        </div>
 
         @include('frontend.layouts.templates.scripts')
-
-        @include('frontend.layouts.templates.footer')
 
     </body>
 </html>

@@ -10,7 +10,7 @@ Route::prefix('portfolio')->group(function () {
         ->name('portfolio');
 
     // Show single portfolio item
-    Route::get('/{id}', [PortfolioController::class, 'single'])
+    Route::get('/{slug}', [PortfolioController::class, 'single'])
         ->name('portfolio.single');
 
 });

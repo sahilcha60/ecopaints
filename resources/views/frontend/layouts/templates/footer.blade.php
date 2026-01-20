@@ -1,128 +1,80 @@
-<!--===== FOOTER AREA STARTS =======-->
-<div class="footer1">
-    <div class="container">
-      <div class="row">
-         <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="footer-area-logo">
-                  <img src="{{asset('img/footer/footer1-logo.html')}}" alt="">
-                  <div class="space16"></div>
-                  <p>At Saiin, we’re more than just painterspassionate professionals committed to quality, reliability, and beautiful results. Whether it’s one room or your entire.</p>
-                  <div class="space24"></div>
-                  <ul class="social_link">
-                    <li>
-                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    </li>
+<footer class="main-footer">
+   <div class="main-footer_bg" style="background-image: url({{ asset('images/background/6.jpg') }})"></div>
+
+   <div class="auto-container">
+      <div class="widgets-section">
+         <div class="row footer-row">
+
+            <!-- Column 1 : Logo & Info -->
+            <div class="col-lg-4 col-md-6 col-sm-12 footer_column">
+               <div class="footer-widget footer-two_logo-widget">
+                  <div class="footer-logo">
+                     <a href="index.html">
+                        <img src="{{ asset('images/footer-logo.png') }}" alt="">
+                     </a>
+                  </div>
+                  <div class="footer-text">
+                     Over 15 years of experience we’ll ensure you get the best guidance interior design
+                  </div>
+                  <ul class="footer-list">
+                     <li><a href="#">Room Visualizer</a></li>
+                     <li><a href="#">Flooring Samples</a></li>
                   </ul>
-              </div>
-         </div>
-         <div class="col-xl col-lg-4 col-md-6">
-           <div class="footer-widget-area">
-             <h3>Quick Links</h3>
-             <div class="space28"></div>
-             <ul>
-                <li><a href="index-3.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact </a></li>
-           </ul>
-           </div>
-         </div>
-         <div class="col-xl col-lg-4 col-md-6">
-           <div class="footer-widget-hour">
-              <h4>Business Hours</h4>
-              <div class="space28"></div>
-              <ul>
-                  <li><span><a class="f-date" href="#">Mon–Fri:</a></span> <span><a href="#">8:00 AM - 6:00 PM</a></span></li>
-                  <li><span><a class="f-date" href="#">Sat:</a></span> <span><a href="#">9:00 AM - 2:00 PM</a></span></li>
-                  <li><span><a class="f-date" href="#">Sun:</a></span> <span><a href="#">Closed</a></span></li>
-              </ul>
-           </div>
-         </div>
-         <div class="col-xl col-lg-4 col-md-6">
-            <div class="footer-area-gallery">
-               <h3>Gallery </h3>
-               <div class="space26"></div>
-               <div class="row gx-2">
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                    <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(1).html')}}" alt="">
-                    </div>
-                 </div>
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                  <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(2).html')}}" alt="">
-                    </div>
-                 </div>
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                  <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(3).html')}}" alt="">
-                    </div>
-                 </div>
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                  <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(4).html')}}" alt="">
-                    </div>
-                 </div>
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                  <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(5).html')}}" alt="">
-                    </div>
-                 </div>
-                 <div class="col-xl-4 col-lg-4 col-md-4 col-4">
-                  <div class="footer-img">
-                       <img src="{{asset('img/footer/footer1-img-(6).html')}}" alt="">
-                    </div>
-                 </div>
                </div>
             </div>
-         </div>
-        <div class="row footer1_bottom_fixer">
-           <div class="col-xl-4 col-lg-4 col-md-6">
-            <div class="footer-subscribe">
-               <h3>Subscribe Our Newsletter</h3>
-               <div class="space24"></div>
-               <form action="#">
-                    <input type="email" placeholder="Email Address">
-                    <button class="sub_arrow" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-            </div>
-          </div>
-          <div class="col-xl-8 col-lg-8">
-              <div class="footer-mobile-area">
-                  <div class="footer-mobile-area-info">
-                      <h4>Email:</h4>
-                      <div class="space10"></div>
-                      <a href="#">info@Saiin.com</a>
-                  </div>
-                   <div class="footer-mobile-area-info">
-                      <h4>Location:</h4>
-                      <div class="space10"></div>
-                      <a href="#">Charlotte, NC & Surrounding Areas</a>
-                  </div>
-                   <div class="footer-mobile-area-info">
-                      <h4>Phone:</h4>
-                      <div class="space10"></div>
-                      <a href="tel:(123)456-7890">(123) 456-7890</a>
-                  </div>
-              </div>
-          </div>
-        </div>
-        <div class="space32"></div>
-            <div class="footer1-copyright-area">
-               <a href="#">© Copyright 2025 Saiin . All rights reserved</a>
+
+            <!-- Column 2 : Links -->
+            <div class="col-lg-4 col-md-6 col-sm-12 footer_column">
+               <div class="footer-widget links-widget">
+                  <h5 class="footer-title">Links</h5>
+                  <ul class="footer-list">
+                     <li><a href="#">Tile</a></li>
+                     <li><a href="#">Free Estimate</a></li>
+                     <li><a href="#">Financing</a></li>
+                     <li><a href="#">Flooring</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Pricing & Plans</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+               </div>
             </div>
 
+            <!-- Column 3 : Call To Action -->
+            <div class="col-lg-4 col-md-12 col-sm-12 footer_column">
+               <div class="footer-widget cta-widget">
+                  <h5 class="footer-title">Need Help?</h5>
+
+                  <div class="cta-text">
+                     Call us now for free consultation and expert guidance.
+                  </div>
+
+                  <div class="cta-phone">
+                     <span>Call Anytime</span>
+                     <a href="tel:9860584778">9860 584 778</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
       </div>
-    </div>
-</div>
-<!--===== FOOTER AREA ENDS =======-->  
+   </div>
+
+   <!-- Bottom -->
+   <div class="footer-bottom">
+      <div class="auto-container">
+         <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="main-footer_copyright">
+               ©2024 Themazine. All Rights Reserved
+            </div>
+
+            <div class="footer_socials">
+               <span>Social</span>
+               <a class="fa-brands fa-facebook-f"></a>
+               <a class="fa-brands fa-instagram"></a>
+               <a class="fa-brands fa-twitter"></a>
+               <a class="fa-brands fa-youtube"></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
