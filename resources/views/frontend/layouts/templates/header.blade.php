@@ -34,7 +34,7 @@
                     <div class="left-box d-flex align-items-center flex-wrap">
                         <!-- Logo Box -->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="{{asset('images/logo-2.png')}}" alt="" title=""></a></div>
+                            <div class="logo"><a href="{{ route('homepage') }}"><img src="{{asset('images/logo-2.png')}}" alt="" title=""></a></div>
                         </div>
                         <!-- End Logo Box -->
 
